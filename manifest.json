@@ -69,7 +69,7 @@
     "c2 raw-NaN path wins 26/36 cells": {"results": ["experiments/s65_fairbudget", "experiments/s60_c2retrofit"], "verify": "verify_appendix.py"},
     "SAITS/BRITS closure +6.8/+10.6 vs -6.7/-7.2; oracle 40.2": {"results": ["experiments/s42_end2end/s42_results.json"], "verify": "verify_paper_numbers_v2.py"},
     "205M capacity: 99.5% closure at 205M; -4.8% mech-diverse": {"results": ["experiments/s45_pretrain/s48_eval_base*.json", "experiments/s45_pretrain/s56_eval_base.json"], "ckpt": "205M capacity arms"},
-    "attack multipliers 3.06/1.18/1.00 METR-LA; c2 1.40; m2 1.29-2.49": {"results": ["experiments/s25_twofloor", "experiments/s44_attack_c2", "experiments/s46_moirai2/s46_results.json"], "verify": "verify_paper_numbers_v2.py: 2.49/1.29"},
+    "attack multipliers 3.06/1.18/1.00 METR-LA; c2 1.40; m2 1.29-2.49": {"results": ["experiments/s25_twofloor", "experiments/s60_c2retrofit/s60_attack.json", "experiments/s61_m2retrofit/s61_attack.json", "experiments/s46_moirai2/s46_results.json"], "verify": "verify_paper_numbers_v2.py: 2.49/1.29"},
     "covariates 1.357 vs 1.023 declared": {"results": ["experiments/s31_crosschannel", "experiments/s31b_metrla_neighbours"]},
     "adapters 53% closure (22/23); 73% held-out (44/44); 59/67 at 0.25": {"results": ["experiments/s27_interface/s27_results.json", "experiments/s37_capbreadth"], "ckpt": "s27 input adapters"}
   }

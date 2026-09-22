@@ -42,10 +42,12 @@ continued-pretraining (CPT) recipe restores the use of repaired values.
 
 ## Layout
 
-- `experiments/` — experiment rounds s05–s73: run/eval scripts, DESIGN/notes,
+- `experiments/` — experiment rounds: run/eval scripts, DESIGN/notes,
   and stored result JSONs. Round names are import paths: scripts use
   `sys.path.insert` with these exact relative names, so keep the layout and
-  run scripts from the round or `experiments/` root.
+  run scripts from the round or `experiments/` root. Exploratory rounds that
+  no paper claim, verifier or figure references (s08, s17, s18, s21, s23,
+  s24, s43, s44) are omitted.
   - Audit spine: `verify_*.py`, `audit_prose_numbers.py`, `find_number.py`,
     `claims_*.json` (values the verifiers assert).
   - `manifest.json` (repo root) maps each paper claim to its source
