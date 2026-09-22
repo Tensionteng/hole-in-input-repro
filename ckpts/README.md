@@ -1,7 +1,7 @@
 # Trained checkpoints
 
-Trained checkpoints are published on Hugging Face under
-`tensionteng/hole-in-input-ckpts` (private during review). Stock (vanilla)
+Trained checkpoints are published on Hugging Face (the namespace is withheld
+during double-blind review and restored at camera-ready). Stock (vanilla)
 checkpoints are **not** mirrored; use the official releases:
 
 - `amazon/chronos-bolt-{tiny,mini,small,base}`, `amazon/chronos-t5-*`,

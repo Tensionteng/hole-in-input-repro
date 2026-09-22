@@ -14,3 +14,7 @@ __pycache__/
 corpus_cache/
 .ipynb_checkpoints/
 .DS_Store
+
+# verifier-referenced logs
+!experiments/s19_mnarunmask/s19_smoke.log
+!experiments/s36_models/log_4.log

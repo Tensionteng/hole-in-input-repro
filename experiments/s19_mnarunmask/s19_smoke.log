@@ -1,0 +1,12 @@
+smoke: 35 series, fully-missing patches = 245
+Loading weights:   0%|          | 0/269 [00:00<?, ?it/s]Loading weights:  21%|██        | 57/269 [00:00<00:00, 566.81it/s]Loading weights:  42%|████▏     | 114/269 [00:00<00:00, 551.84it/s]Loading weights:  63%|██████▎   | 170/269 [00:00<00:00, 534.42it/s]Loading weights:  83%|████████▎ | 224/269 [00:00<00:00, 488.63it/s]Loading weights: 100%|██████████| 269/269 [00:00<00:00, 505.34it/s]
+/mnt/jd/users/tengshiyuan.1/codes/non-stationary-ts/.venv/lib/python3.11/site-packages/chronos/chronos_bolt.py:546: UserWarning: We recommend keeping prediction length <= 64. The quality of longer predictions may degrade since the model is not optimized for it. 
+  warnings.warn(msg)
+smoke: mb + knockout vs mb max|diff| = 0.00e+00 (want exactly 0)
+smoke: unmask vs native-decode max|diff| = 5.2016 (want >0)
+smoke: unmask+knockout vs unmask max|diff| = 7.8866 (want >0: the knockout bites once gap positions are readable)
+smoke: knockout under LoRA: patch-key mass exactly 0, REG mass 1.0 at all 12 layers (245 knocked queries)
+Loading weights:   0%|          | 0/269 [00:00<?, ?it/s]Loading weights:  21%|██        | 56/269 [00:00<00:00, 554.49it/s]Loading weights:  42%|████▏     | 112/269 [00:00<00:00, 545.73it/s]Loading weights:  62%|██████▏   | 167/269 [00:00<00:00, 528.83it/s]Loading weights:  82%|████████▏ | 220/269 [00:00<00:00, 496.74it/s]Loading weights: 100%|██████████| 269/269 [00:00<00:00, 501.75it/s]
+smoke: zs unmask+knockout vs zs unmask max|diff| = 6.6445 (want >0)
+smoke: post-restore mb predict max|diff| = 0.00e+00 (want 0)
+SMOKE OK

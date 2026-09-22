@@ -1,0 +1,71 @@
+Loading weights:   0%|          | 0/463 [00:00<?, ?it/s]Loading weights:  84%|████████▎ | 387/463 [00:00<00:00, 3866.60it/s]Loading weights: 100%|██████████| 463/463 [00:00<00:00, 3888.86it/s]
+
+== TimeMoE-50M ==
+[transformers] `use_return_dict` is deprecated! Use `return_dict` instead!
+/mnt/jd/users/tengshiyuan.1/codes/non-stationary-ts/.venv/lib/python3.11/site-packages/transformers/modeling_attn_mask_utils.py:71: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+/mnt/jd/users/tengshiyuan.1/codes/non-stationary-ts/.venv/lib/python3.11/site-packages/transformers/modeling_attn_mask_utils.py:172: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+  ETTh1    mcar       plain  perm=1.689e-01 redraw=1.854e-01 ratio=0.9108 (22s)
+  ETTh1    mcar       nan    non-finite output (100.0%) -- convention unsupported
+  ETTh1    block      plain  perm=1.775e-01 redraw=2.451e-01 ratio=0.7241 (21s)
+  ETTh1    block      nan    non-finite output (100.0%) -- convention unsupported
+  ETTh1    mnar_high  plain  perm=9.620e-02 redraw=3.398e-01 ratio=0.2831 (21s)
+  ETTh1    mnar_high  nan    non-finite output (100.0%) -- convention unsupported
+/mnt/jd/users/tengshiyuan.1/codes/non-stationary-ts/.venv/lib/python3.11/site-packages/transformers/modeling_attn_mask_utils.py:71: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+/mnt/jd/users/tengshiyuan.1/codes/non-stationary-ts/.venv/lib/python3.11/site-packages/transformers/modeling_attn_mask_utils.py:172: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+  ETTm1    mcar       plain  perm=1.539e-01 redraw=1.654e-01 ratio=0.9305 (21s)
+  ETTm1    mcar       nan    non-finite output (100.0%) -- convention unsupported
+  ETTm1    block      plain  perm=1.652e-01 redraw=2.541e-01 ratio=0.6501 (21s)
+  ETTm1    block      nan    non-finite output (100.0%) -- convention unsupported
+  ETTm1    mnar_high  plain  perm=6.970e-02 redraw=3.898e-01 ratio=0.1788 (21s)
+  ETTm1    mnar_high  nan    non-finite output (100.0%) -- convention unsupported
+/mnt/jd/users/tengshiyuan.1/codes/non-stationary-ts/.venv/lib/python3.11/site-packages/transformers/modeling_attn_mask_utils.py:71: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+/mnt/jd/users/tengshiyuan.1/codes/non-stationary-ts/.venv/lib/python3.11/site-packages/transformers/modeling_attn_mask_utils.py:172: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+  weather  mcar       plain  perm=2.543e-01 redraw=2.512e-01 ratio=1.0123 (63s)
+  weather  mcar       nan    non-finite output (100.0%) -- convention unsupported
+  weather  block      plain  perm=1.327e-01 redraw=2.636e-01 ratio=0.5035 (63s)
+  weather  block      nan    non-finite output (100.0%) -- convention unsupported
+  weather  mnar_high  plain  perm=5.482e-02 redraw=3.758e-01 ratio=0.1459 (63s)
+  weather  mnar_high  nan    non-finite output (100.0%) -- convention unsupported
+  AGG TimeMoE-50M: plain=0.6501  nan=n/a
+Loading weights:   0%|          | 0/463 [00:00<?, ?it/s]Loading weights:  26%|██▌       | 121/463 [00:00<00:00, 1174.75it/s]Loading weights:  54%|█████▍    | 250/463 [00:00<00:00, 1240.51it/s]Loading weights:  81%|████████  | 375/463 [00:00<00:00, 1226.01it/s]Loading weights: 100%|██████████| 463/463 [00:00<00:00, 1267.37it/s]
+
+== TimeMoE-200M ==
+/mnt/jd/users/tengshiyuan.1/codes/non-stationary-ts/.venv/lib/python3.11/site-packages/transformers/modeling_attn_mask_utils.py:71: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+/mnt/jd/users/tengshiyuan.1/codes/non-stationary-ts/.venv/lib/python3.11/site-packages/transformers/modeling_attn_mask_utils.py:172: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+  ETTh1    mcar       plain  non-finite output (100.0%) -- convention unsupported
+  ETTh1    mcar       nan    non-finite output (100.0%) -- convention unsupported
+  ETTh1    block      plain  non-finite output (100.0%) -- convention unsupported
+  ETTh1    block      nan    non-finite output (100.0%) -- convention unsupported
+  ETTh1    mnar_high  plain  non-finite output (100.0%) -- convention unsupported
+  ETTh1    mnar_high  nan    non-finite output (100.0%) -- convention unsupported
+/mnt/jd/users/tengshiyuan.1/codes/non-stationary-ts/.venv/lib/python3.11/site-packages/transformers/modeling_attn_mask_utils.py:71: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+/mnt/jd/users/tengshiyuan.1/codes/non-stationary-ts/.venv/lib/python3.11/site-packages/transformers/modeling_attn_mask_utils.py:172: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+  ETTm1    mcar       plain  non-finite output (100.0%) -- convention unsupported
+  ETTm1    mcar       nan    non-finite output (100.0%) -- convention unsupported
+  ETTm1    block      plain  non-finite output (100.0%) -- convention unsupported
+  ETTm1    block      nan    non-finite output (100.0%) -- convention unsupported
+  ETTm1    mnar_high  plain  non-finite output (100.0%) -- convention unsupported
+  ETTm1    mnar_high  nan    non-finite output (100.0%) -- convention unsupported
+/mnt/jd/users/tengshiyuan.1/codes/non-stationary-ts/.venv/lib/python3.11/site-packages/transformers/modeling_attn_mask_utils.py:71: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+/mnt/jd/users/tengshiyuan.1/codes/non-stationary-ts/.venv/lib/python3.11/site-packages/transformers/modeling_attn_mask_utils.py:172: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+  weather  mcar       plain  non-finite output (100.0%) -- convention unsupported
+  weather  mcar       nan    non-finite output (100.0%) -- convention unsupported
+  weather  block      plain  non-finite output (100.0%) -- convention unsupported
+  weather  block      nan    non-finite output (100.0%) -- convention unsupported
+  weather  mnar_high  plain  non-finite output (100.0%) -- convention unsupported
+  weather  mnar_high  nan    non-finite output (100.0%) -- convention unsupported
+  AGG TimeMoE-200M: plain=n/a  nan=n/a
+
+wrote part_4.json

@@ -4,9 +4,9 @@
   "corner": "(block, 1.0) = all L=512 context positions declared missing (obs flag 0) through the named endpoint; content = oracle (true values) or zeros",
   "checkpoints": {
    "vanilla": "models_local/chronos-2 (stock weights, c2_iface replica)",
-   "ctl5k": "/mnt/jd/users/tengshiyuan.1/codes/non-stationary-ts/tsfm_missing/experiments/s65_fairbudget/s65_ckpt/c2_nomiss.pt",
-   "cpt": "/mnt/jd/users/tengshiyuan.1/codes/non-stationary-ts/tsfm_missing/experiments/s60_c2retrofit/s60_ckpt/arm_CPT_s20260903.pt",
-   "w50": "/mnt/jd/users/tengshiyuan.1/codes/non-stationary-ts/tsfm_missing/experiments/s60_c2retrofit/s60_ckpt/arm_W50_s20260903.pt (WiSE-FT 0.5*vanilla+0.5*cpt)"
+   "ctl5k": "<local>",
+   "cpt": "<local>",
+   "w50": "<local> (WiSE-FT 0.5*vanilla+0.5*cpt)"
   },
   "conventions": "strict fp32, TF32 off; relMSE = per-window MSE ratio vs the model's OWN clean univariate forecast (dual replica, all-observed flags), median (S31 convention)",
   "L": 512,

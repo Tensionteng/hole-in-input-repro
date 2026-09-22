@@ -17,7 +17,7 @@ import time
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 STATE = os.path.join(HERE, "s71_scheduler_state.json")
-PY = "/mnt/jd/users/tengshiyuan.1/codes/non-stationary-ts/.venv/bin/python"
+PY = "<local>"
 MEM_LIMIT_MIB = 2000
 POLL_S = 60
 

@@ -9,8 +9,9 @@ choice bounds what any imputation can achieve, and how a short
 continued-pretraining (CPT) recipe restores the use of repaired values.
 
 > **Anonymity.** This repository is private until the camera-ready deadline.
-> Please do not link it from the submission or any public channel while the
-> paper is under review.
+> During review, an anonymized read-only mirror is linked from the paper's
+> reproducibility statement; please do not link this repository itself from
+> the submission or any public channel while the paper is under review.
 
 ## What you can do with this package
 
@@ -24,6 +25,10 @@ continued-pretraining (CPT) recipe restores the use of repaired values.
    python verify_appendix.py
    python audit_prose_numbers.py        # lists prose numerals not covered by a claim
    ```
+   Two checks read the GIFT-Eval corpus itself (the 305M point count and the
+   kdd_cup NaN share) and report "not recomputable" until `data/gifteval` is
+   fetched with the scripts in `data/`; all other checks run from the stored
+   results alone.
 2. **Regenerate every paper figure and table** from the stored results:
    `paper/iclr2026/figures/make_*.py` read the result files under
    `experiments/` and emit the LaTeX/PDF assets used in the manuscript.
@@ -60,15 +65,16 @@ continued-pretraining (CPT) recipe restores the use of repaired values.
 
 ## Results policy
 
-- Per-window arrays (`"w"` and similar) are stripped from the largest result
-  JSONs (the s48 family) to keep the repository light; every aggregate the
-  paper relies on (median/mean/closure inputs) is preserved. Window-paired
-  bootstrap recomputation therefore needs the full arrays, which will be
-  published alongside the checkpoints.
+- Per-window arrays (`"w"` and similar) are stripped from result JSONs above 8
+  MB so that every file stays browsable on the anonymous mirror; every
+  aggregate the paper relies on (median/mean/closure inputs) is preserved.
+  Window-paired bootstrap recomputation therefore needs the full arrays, which
+  will be published alongside the checkpoints at camera-ready.
 - `experiments/s20_textprompt/s20_results.json` (236 MB) is excluded from git
   via `.gitignore`; it is not referenced by any paper claim.
-- `s7_attrib_results.json` and `s8_results.json` keep their full per-window
-  arrays.
+- `s07_component_attrib` keeps its full per-window arrays (44 MB, kept by
+  decision); files above 8 MB are not rendered by the anonymous mirror and
+  become browsable at camera-ready.
 
 ## Environment
 
