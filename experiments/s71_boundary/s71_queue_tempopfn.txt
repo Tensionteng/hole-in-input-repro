@@ -1,0 +1,5 @@
+# S71 queue phase 4: tempopfn trainings (G0 PASSED 2026-09-03, worst 0.0 over 162
+# cells) + timer cpt replicate seed (DESIGN: two seeds for cpt if capacity allows)
+train_tempopfn_cpt | @PY@ run_s71_tempopfn.py --arm cpt --bs 128 --device cuda:0 && @PY@ eval_s71.py --models tempopfn --arms cpt --parts probe,sweep,clean,leaderboard --device cuda:0
+train_tempopfn_ctl5k | @PY@ run_s71_tempopfn.py --arm ctl5k --bs 128 --device cuda:0 && @PY@ eval_s71.py --models tempopfn --arms ctl5k --parts probe,sweep,clean,leaderboard --device cuda:0
+train_timer_cpt_s2 | @PY@ run_s71_timer.py --arm cpt --seed 20260904 --bs 512 --device cuda:0 && @PY@ eval_s71.py --models timer --arms cpt@20260904 --parts probe,sweep,clean,leaderboard --device cuda:0

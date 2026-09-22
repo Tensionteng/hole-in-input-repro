@@ -1,0 +1,92 @@
+{
+ "ETTh1": {
+  "n_rows": 17420,
+  "n_channels": 7,
+  "n_discrete_channels_excluded": 0,
+  "nan_frac": 0.0,
+  "zero_run_frac_mean": 0.0,
+  "zero_run_frac_max": 0.0,
+  "const_run_frac_mean": 0.023888797769394787,
+  "const_run_frac_max": 0.029965556831228472
+ },
+ "ETTh2": {
+  "n_rows": 17420,
+  "n_channels": 7,
+  "n_discrete_channels_excluded": 0,
+  "nan_frac": 0.0,
+  "zero_run_frac_mean": 0.0,
+  "zero_run_frac_max": 0.0,
+  "const_run_frac_mean": 0.10941446613088403,
+  "const_run_frac_max": 0.3598163030998852
+ },
+ "ETTm1": {
+  "n_rows": 69680,
+  "n_channels": 7,
+  "n_discrete_channels_excluded": 0,
+  "nan_frac": 0.0,
+  "zero_run_frac_mean": 0.0,
+  "zero_run_frac_max": 0.0,
+  "const_run_frac_mean": 0.025598655076267015,
+  "const_run_frac_max": 0.03135763490241102
+ },
+ "ETTm2": {
+  "n_rows": 69680,
+  "n_channels": 7,
+  "n_discrete_channels_excluded": 0,
+  "nan_frac": 0.0,
+  "zero_run_frac_mean": 0.0,
+  "zero_run_frac_max": 0.0,
+  "const_run_frac_mean": 0.176371576185009,
+  "const_run_frac_max": 0.6029707233065442
+ },
+ "weather": {
+  "n_rows": 52696,
+  "n_channels": 21,
+  "n_discrete_channels_excluded": 0,
+  "nan_frac": 0.0,
+  "zero_run_frac_mean": 0.0008955229275557196,
+  "zero_run_frac_max": 0.00814103537270381,
+  "const_run_frac_mean": 0.15762468643142696,
+  "const_run_frac_max": 0.9368263245787156
+ },
+ "electricity": {
+  "n_rows": 26304,
+  "n_channels": 321,
+  "n_discrete_channels_excluded": 2,
+  "nan_frac": 0.0,
+  "zero_run_frac_mean": 1.90681036389569e-05,
+  "zero_run_frac_max": 0.006082725060827251,
+  "const_run_frac_mean": 0.008857491667238709,
+  "const_run_frac_max": 0.7570331508515815
+ },
+ "traffic": {
+  "n_rows": 17544,
+  "n_channels": 862,
+  "n_discrete_channels_excluded": 0,
+  "nan_frac": 0.0,
+  "zero_run_frac_mean": 2.1821171138287506e-06,
+  "zero_run_frac_max": 0.0013679890560875513,
+  "const_run_frac_mean": 0.004267096953711609,
+  "const_run_frac_max": 0.08390332877336981
+ },
+ "exchange": {
+  "n_rows": 7588,
+  "n_channels": 8,
+  "n_discrete_channels_excluded": 0,
+  "nan_frac": 0.0,
+  "zero_run_frac_mean": 0.0,
+  "zero_run_frac_max": 0.0,
+  "const_run_frac_mean": 0.013903531892461782,
+  "const_run_frac_max": 0.11122825513969425
+ },
+ "illness": {
+  "n_rows": 966,
+  "n_channels": 7,
+  "n_discrete_channels_excluded": 0,
+  "nan_frac": 0.0,
+  "zero_run_frac_mean": 0.0,
+  "zero_run_frac_max": 0.0,
+  "const_run_frac_mean": 0.0,
+  "const_run_frac_max": 0.0
+ }
+}

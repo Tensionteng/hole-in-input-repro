@@ -1,0 +1,411 @@
+{
+ "bolt_ref": {
+  "P5-base (bolt CPT ref)": {
+   "rho": 0.832,
+   "closure": null
+  },
+  "P0-base (stock ref)": {
+   "rho": 0.0,
+   "closure": null
+  },
+  "note": "s56_eval_base.json probe rho_declared medians; P5-tiny closure 76.7% (s53_notes.md scorecard)"
+ },
+ "timesfm": {
+  "stock": {
+   "rho_median": {
+    "nan": 0.0,
+    "plain": 0.8619791269302368
+   },
+   "closure_median": 0.0,
+   "closure_cells": {
+    "ETTh1|block": 0.0,
+    "ETTh1|mcar": 0.0,
+    "ETTm1|block": 0.0,
+    "ETTm1|mcar": 0.0,
+    "weather|block": 0.0,
+    "weather|mcar": 0.0
+   },
+   "clean_cost_ratio": 1.0,
+   "leaderboard": {
+    "zero": {
+     "median": 2.0220191323767924,
+     "max": 41.34006966802459,
+     "n": 36
+    },
+    "linear": {
+     "median": 2.0220191323767924,
+     "max": 41.34006966802459,
+     "n": 36
+    },
+    "oracle": {
+     "median": 2.0220191323767924,
+     "max": 41.34006966802459,
+     "n": 36
+    }
+   }
+  },
+  "cpt": {
+   "rho_median": {
+    "nan": 0.0,
+    "plain": 0.9911800622940063
+   },
+   "closure_median": 0.0,
+   "closure_cells": {
+    "ETTh1|block": null,
+    "ETTh1|mcar": 0.0,
+    "ETTm1|block": 0.0,
+    "ETTm1|mcar": 0.0,
+    "weather|block": null,
+    "weather|mcar": null
+   },
+   "clean_cost_ratio": 1.173800495759961,
+   "leaderboard": {
+    "zero": {
+     "median": 1.359591363747164,
+     "max": 9.552245340407065,
+     "n": 36
+    },
+    "linear": {
+     "median": 1.359591363747164,
+     "max": 9.552245340407065,
+     "n": 36
+    },
+    "oracle": {
+     "median": 1.359591363747164,
+     "max": 9.552245340407065,
+     "n": 36
+    }
+   }
+  },
+  "ctl5k": {
+   "rho_median": {
+    "nan": 0.0,
+    "plain": 0.8722396492958069
+   },
+   "closure_median": 0.0,
+   "closure_cells": {
+    "ETTh1|block": 0.0,
+    "ETTh1|mcar": 0.0,
+    "ETTm1|block": 0.0,
+    "ETTm1|mcar": 0.0,
+    "weather|block": null,
+    "weather|mcar": null
+   },
+   "clean_cost_ratio": 1.1550476338883866,
+   "leaderboard": {
+    "zero": {
+     "median": 1.6618241213360851,
+     "max": 20.11804476838546,
+     "n": 36
+    },
+    "linear": {
+     "median": 1.6618241213360851,
+     "max": 20.11804476838546,
+     "n": 36
+    },
+    "oracle": {
+     "median": 1.6618241213360851,
+     "max": 20.11804476838546,
+     "n": 36
+    }
+   }
+  },
+  "cpt@20260904": {
+   "rho_median": {
+    "nan": 0.0,
+    "plain": 0.9276118278503418
+   },
+   "closure_median": 0.0,
+   "closure_cells": {
+    "ETTh1|block": 0.0,
+    "ETTh1|mcar": 0.0,
+    "ETTm1|block": 0.0,
+    "ETTm1|mcar": 0.0,
+    "weather|block": null,
+    "weather|mcar": null
+   },
+   "clean_cost_ratio": 1.0384987210097714,
+   "leaderboard": {
+    "zero": {
+     "median": 1.5001049123760937,
+     "max": 15.63382738381896,
+     "n": 36
+    },
+    "linear": {
+     "median": 1.5001049123760937,
+     "max": 15.63382738381896,
+     "n": 36
+    },
+    "oracle": {
+     "median": 1.5001049123760937,
+     "max": 15.63382738381896,
+     "n": 36
+    }
+   }
+  }
+ },
+ "tempopfn": {
+  "stock": {
+   "rho_median": {
+    "nan": 0.0,
+    "plain": 0.8434114456176758
+   },
+   "closure_median": 0.0,
+   "closure_cells": {
+    "ETTh1|block": 0.0,
+    "ETTh1|mcar": 0.0,
+    "ETTm1|block": 0.0,
+    "ETTm1|mcar": 0.0,
+    "weather|block": 0.0,
+    "weather|mcar": 0.0
+   },
+   "clean_cost_ratio": 1.0,
+   "leaderboard": {
+    "zero": {
+     "median": 1.4841868013818154,
+     "max": 18.306916447376523,
+     "n": 36
+    },
+    "linear": {
+     "median": 1.4841868013818154,
+     "max": 18.306916447376523,
+     "n": 36
+    },
+    "oracle": {
+     "median": 1.4841868013818154,
+     "max": 18.306916447376523,
+     "n": 36
+    }
+   }
+  },
+  "cpt": {
+   "rho_median": {
+    "nan": 0.0,
+    "plain": 0.5256637930870056
+   },
+   "closure_median": 0.0,
+   "closure_cells": {
+    "ETTh1|block": null,
+    "ETTh1|mcar": 0.0,
+    "ETTm1|block": 0.0,
+    "ETTm1|mcar": 0.0,
+    "weather|block": 0.0,
+    "weather|mcar": 0.0
+   },
+   "clean_cost_ratio": 1.0507393775207203,
+   "leaderboard": {
+    "zero": {
+     "median": 1.3193671396046658,
+     "max": 3.4059597159985837,
+     "n": 36
+    },
+    "linear": {
+     "median": 1.3193671396046658,
+     "max": 3.4059597159985837,
+     "n": 36
+    },
+    "oracle": {
+     "median": 1.3193671396046658,
+     "max": 3.4059597159985837,
+     "n": 36
+    }
+   }
+  },
+  "ctl5k": {
+   "rho_median": {
+    "nan": 0.0,
+    "plain": 0.5968388915061951
+   },
+   "closure_median": 0.0,
+   "closure_cells": {
+    "ETTh1|block": 0.0,
+    "ETTh1|mcar": 0.0,
+    "ETTm1|block": 0.0,
+    "ETTm1|mcar": 0.0,
+    "weather|block": 0.0,
+    "weather|mcar": 0.0
+   },
+   "clean_cost_ratio": 1.0321058612804757,
+   "leaderboard": {
+    "zero": {
+     "median": 1.480118005550671,
+     "max": 20.025147188731843,
+     "n": 36
+    },
+    "linear": {
+     "median": 1.480118005550671,
+     "max": 20.025147188731843,
+     "n": 36
+    },
+    "oracle": {
+     "median": 1.480118005550671,
+     "max": 20.025147188731843,
+     "n": 36
+    }
+   }
+  },
+  "cpt@20260904": {
+   "rho_median": {
+    "nan": 0.0,
+    "plain": 0.753792941570282
+   },
+   "closure_median": 0.0,
+   "closure_cells": {
+    "ETTh1|block": null,
+    "ETTh1|mcar": 0.0,
+    "ETTm1|block": 0.0,
+    "ETTm1|mcar": 0.0,
+    "weather|block": 0.0,
+    "weather|mcar": 0.0
+   },
+   "clean_cost_ratio": 1.0922336188760027,
+   "leaderboard": {
+    "zero": {
+     "median": 1.3021821177161237,
+     "max": 3.557597626928617,
+     "n": 36
+    },
+    "linear": {
+     "median": 1.3021821177161237,
+     "max": 3.557597626928617,
+     "n": 36
+    },
+    "oracle": {
+     "median": 1.3021821177161237,
+     "max": 3.557597626928617,
+     "n": 36
+    }
+   }
+  }
+ },
+ "timer": {
+  "stock": {
+   "rho_median": {
+    "plain": 0.8429020643234253
+   },
+   "closure_median": 1.0,
+   "closure_cells": {
+    "ETTh1|block": 1.0,
+    "ETTh1|mcar": 1.0,
+    "ETTm1|block": null,
+    "ETTm1|mcar": 1.0,
+    "weather|block": null,
+    "weather|mcar": null
+   },
+   "clean_cost_ratio": 1.0,
+   "leaderboard": {
+    "zero": {
+     "median": 1.3862142400983166,
+     "max": 76.71557255563475,
+     "n": 36
+    },
+    "linear": {
+     "median": 1.0015430429268506,
+     "max": 3.5170744093018955,
+     "n": 36
+    },
+    "oracle": {
+     "median": 1.0,
+     "max": 1.0,
+     "n": 36
+    }
+   }
+  },
+  "cpt": {
+   "rho_median": {
+    "plain": 0.7841699719429016
+   },
+   "closure_median": 1.0,
+   "closure_cells": {
+    "ETTh1|block": 1.0,
+    "ETTh1|mcar": 1.0,
+    "ETTm1|block": null,
+    "ETTm1|mcar": null,
+    "weather|block": null,
+    "weather|mcar": null
+   },
+   "clean_cost_ratio": 3.1690727177121625,
+   "leaderboard": {
+    "zero": {
+     "median": 1.0936892964519804,
+     "max": 31.264395128745825,
+     "n": 36
+    },
+    "linear": {
+     "median": 0.9958339937831122,
+     "max": 1.0487414990066128,
+     "n": 36
+    },
+    "oracle": {
+     "median": 1.0,
+     "max": 1.0,
+     "n": 36
+    }
+   }
+  },
+  "ctl5k": {
+   "rho_median": {
+    "plain": 0.8215174674987793
+   },
+   "closure_median": 1.0,
+   "closure_cells": {
+    "ETTh1|block": 1.0,
+    "ETTh1|mcar": 1.0,
+    "ETTm1|block": null,
+    "ETTm1|mcar": null,
+    "weather|block": null,
+    "weather|mcar": null
+   },
+   "clean_cost_ratio": 4.448015538967778,
+   "leaderboard": {
+    "zero": {
+     "median": 1.0687624561780384,
+     "max": 96.71500343052156,
+     "n": 36
+    },
+    "linear": {
+     "median": 0.9992638100962807,
+     "max": 1.600988081201648,
+     "n": 36
+    },
+    "oracle": {
+     "median": 1.0,
+     "max": 1.0,
+     "n": 36
+    }
+   }
+  },
+  "cpt@20260904": {
+   "rho_median": {
+    "plain": 0.7910854816436768
+   },
+   "closure_median": 1.0,
+   "closure_cells": {
+    "ETTh1|block": 1.0,
+    "ETTh1|mcar": 1.0,
+    "ETTm1|block": null,
+    "ETTm1|mcar": null,
+    "weather|block": null,
+    "weather|mcar": null
+   },
+   "clean_cost_ratio": 2.590682934608251,
+   "leaderboard": {
+    "zero": {
+     "median": 1.1782931052107033,
+     "max": 44.80467255051802,
+     "n": 36
+    },
+    "linear": {
+     "median": 0.9962653375028323,
+     "max": 2.220984984896441,
+     "n": 36
+    },
+    "oracle": {
+     "median": 1.0,
+     "max": 1.0,
+     "n": 36
+    }
+   }
+  }
+ }
+}

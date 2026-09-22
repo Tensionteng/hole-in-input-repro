@@ -1,0 +1,47 @@
+{
+ "ETTh1": {
+  "n_win": 300,
+  "n_series": 2100,
+  "n_channels": 7
+ },
+ "ETTh2": {
+  "n_win": 300,
+  "n_series": 2100,
+  "n_channels": 7
+ },
+ "ETTm1": {
+  "n_win": 300,
+  "n_series": 2100,
+  "n_channels": 7
+ },
+ "ETTm2": {
+  "n_win": 300,
+  "n_series": 2100,
+  "n_channels": 7
+ },
+ "weather": {
+  "n_win": 300,
+  "n_series": 6166,
+  "n_channels": 21
+ },
+ "electricity": {
+  "n_win": 300,
+  "n_series": 6900,
+  "n_channels": 24
+ },
+ "traffic": {
+  "n_win": 300,
+  "n_series": 7200,
+  "n_channels": 24
+ },
+ "exchange": {
+  "n_win": 300,
+  "n_series": 2400,
+  "n_channels": 8
+ },
+ "illness": {
+  "n_win": 131,
+  "n_series": 917,
+  "n_channels": 7
+ }
+}

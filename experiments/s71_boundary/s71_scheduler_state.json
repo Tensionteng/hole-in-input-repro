@@ -1,0 +1,124 @@
+{
+ "g0_timer": {
+  "card": 0,
+  "pid": 3988754,
+  "status": "done",
+  "cmd": "cd /mnt/jd/users/tengshiyuan.1/codes/non-stationary-ts/tsfm_missing/experiments/s71_boundary && CUDA_VISIBLE_DEVICES=0 /mnt/jd/users/tengshiyuan.1/codes/non-stationary-ts/.venv/bin/python eval_s71.py --models timer --arms stock --parts g0,probe,sweep,clean,leaderboard --device cuda:0 > /mnt/jd/users/tengshiyuan.1/codes/non-stationary-ts/tsfm_missing/experiments/s71_boundary/s71_g0_timer.log 2>&1",
+  "started": 1788447391.997352,
+  "log": "/mnt/jd/users/tengshiyuan.1/codes/non-stationary-ts/tsfm_missing/experiments/s71_boundary/s71_g0_timer.log",
+  "ended": 1788447519.9468074
+ },
+ "g0_timesfm": {
+  "card": 1,
+  "pid": 3988822,
+  "status": "finished?",
+  "cmd": "cd /mnt/jd/users/tengshiyuan.1/codes/non-stationary-ts/tsfm_missing/experiments/s71_boundary && CUDA_VISIBLE_DEVICES=1 /mnt/jd/users/tengshiyuan.1/codes/non-stationary-ts/.venv/bin/python eval_s71.py --models timesfm --arms stock --parts g0,probe,sweep,clean,leaderboard --device cuda:0 > /mnt/jd/users/tengshiyuan.1/codes/non-stationary-ts/tsfm_missing/experiments/s71_boundary/s71_g0_timesfm.log 2>&1",
+  "started": 1788447392.099008,
+  "log": "/mnt/jd/users/tengshiyuan.1/codes/non-stationary-ts/tsfm_missing/experiments/s71_boundary/s71_g0_timesfm.log",
+  "ended": 1788448102.998222
+ },
+ "g0_tempopfn": {
+  "card": 2,
+  "pid": 3988890,
+  "status": "finished?",
+  "cmd": "cd /mnt/jd/users/tengshiyuan.1/codes/non-stationary-ts/tsfm_missing/experiments/s71_boundary && CUDA_VISIBLE_DEVICES=2 /mnt/jd/users/tengshiyuan.1/codes/non-stationary-ts/.venv/bin/python eval_s71.py --models tempopfn --arms stock --parts g0,probe,sweep,clean,leaderboard --device cuda:0 > /mnt/jd/users/tengshiyuan.1/codes/non-stationary-ts/tsfm_missing/experiments/s71_boundary/s71_g0_tempopfn.log 2>&1",
+  "started": 1788447392.2018192,
+  "log": "/mnt/jd/users/tengshiyuan.1/codes/non-stationary-ts/tsfm_missing/experiments/s71_boundary/s71_g0_tempopfn.log",
+  "ended": 1788450836.482579
+ },
+ "train_timer_cpt": {
+  "card": 0,
+  "pid": 3995775,
+  "status": "finished?",
+  "cmd": "cd /mnt/jd/users/tengshiyuan.1/codes/non-stationary-ts/tsfm_missing/experiments/s71_boundary && ( CUDA_VISIBLE_DEVICES=0 /mnt/jd/users/tengshiyuan.1/codes/non-stationary-ts/.venv/bin/python run_s71_timer.py --arm cpt --bs 512 --device cuda:0 && /mnt/jd/users/tengshiyuan.1/codes/non-stationary-ts/.venv/bin/python eval_s71.py --models timer --arms cpt --parts probe,sweep,clean,leaderboard --device cuda:0 ) > /mnt/jd/users/tengshiyuan.1/codes/non-stationary-ts/tsfm_missing/experiments/s71_boundary/s71_train_timer_cpt.log 2>&1",
+  "started": 1788447680.3619776,
+  "log": "/mnt/jd/users/tengshiyuan.1/codes/non-stationary-ts/tsfm_missing/experiments/s71_boundary/s71_train_timer_cpt.log",
+  "ended": 1788448763.1322634
+ },
+ "train_timer_ctl5k": {
+  "card": 3,
+  "pid": 3995844,
+  "status": "finished?",
+  "cmd": "cd /mnt/jd/users/tengshiyuan.1/codes/non-stationary-ts/tsfm_missing/experiments/s71_boundary && ( CUDA_VISIBLE_DEVICES=3 /mnt/jd/users/tengshiyuan.1/codes/non-stationary-ts/.venv/bin/python run_s71_timer.py --arm ctl5k --bs 512 --device cuda:0 && /mnt/jd/users/tengshiyuan.1/codes/non-stationary-ts/.venv/bin/python eval_s71.py --models timer --arms ctl5k --parts probe,sweep,clean,leaderboard --device cuda:0 ) > /mnt/jd/users/tengshiyuan.1/codes/non-stationary-ts/tsfm_missing/experiments/s71_boundary/s71_train_timer_ctl5k.log 2>&1",
+  "started": 1788447680.4722073,
+  "log": "/mnt/jd/users/tengshiyuan.1/codes/non-stationary-ts/tsfm_missing/experiments/s71_boundary/s71_train_timer_ctl5k.log",
+  "ended": 1788448102.998236
+ },
+ "train_tempopfn_cpt": {
+  "card": 0,
+  "pid": 4013891,
+  "status": "running",
+  "cmd": "cd /mnt/jd/users/tengshiyuan.1/codes/non-stationary-ts/tsfm_missing/experiments/s71_boundary && ( CUDA_VISIBLE_DEVICES=0 /mnt/jd/users/tengshiyuan.1/codes/non-stationary-ts/.venv/bin/python run_s71_tempopfn.py --arm cpt --bs 128 --device cuda:0 && /mnt/jd/users/tengshiyuan.1/codes/non-stationary-ts/.venv/bin/python eval_s71.py --models tempopfn --arms cpt --parts probe,sweep,clean,leaderboard --device cuda:0 ) > /mnt/jd/users/tengshiyuan.1/codes/non-stationary-ts/tsfm_missing/experiments/s71_boundary/s71_train_tempopfn_cpt.log 2>&1",
+  "started": 1788448763.2229204,
+  "log": "/mnt/jd/users/tengshiyuan.1/codes/non-stationary-ts/tsfm_missing/experiments/s71_boundary/s71_train_tempopfn_cpt.log"
+ },
+ "train_tempopfn_ctl5k": {
+  "card": 4,
+  "pid": 4013960,
+  "status": "running",
+  "cmd": "cd /mnt/jd/users/tengshiyuan.1/codes/non-stationary-ts/tsfm_missing/experiments/s71_boundary && ( CUDA_VISIBLE_DEVICES=4 /mnt/jd/users/tengshiyuan.1/codes/non-stationary-ts/.venv/bin/python run_s71_tempopfn.py --arm ctl5k --bs 128 --device cuda:0 && /mnt/jd/users/tengshiyuan.1/codes/non-stationary-ts/.venv/bin/python eval_s71.py --models tempopfn --arms ctl5k --parts probe,sweep,clean,leaderboard --device cuda:0 ) > /mnt/jd/users/tengshiyuan.1/codes/non-stationary-ts/tsfm_missing/experiments/s71_boundary/s71_train_tempopfn_ctl5k.log 2>&1",
+  "started": 1788448763.3556893,
+  "log": "/mnt/jd/users/tengshiyuan.1/codes/non-stationary-ts/tsfm_missing/experiments/s71_boundary/s71_train_tempopfn_ctl5k.log"
+ },
+ "train_timer_cpt_s2": {
+  "card": 6,
+  "pid": 4014029,
+  "status": "finished?",
+  "cmd": "cd /mnt/jd/users/tengshiyuan.1/codes/non-stationary-ts/tsfm_missing/experiments/s71_boundary && ( CUDA_VISIBLE_DEVICES=6 /mnt/jd/users/tengshiyuan.1/codes/non-stationary-ts/.venv/bin/python run_s71_timer.py --arm cpt --seed 20260904 --bs 512 --device cuda:0 && /mnt/jd/users/tengshiyuan.1/codes/non-stationary-ts/.venv/bin/python eval_s71.py --models timer --arms cpt@20260904 --parts probe,sweep,clean,leaderboard --device cuda:0 ) > /mnt/jd/users/tengshiyuan.1/codes/non-stationary-ts/tsfm_missing/experiments/s71_boundary/s71_train_timer_cpt_s2.log 2>&1",
+  "started": 1788448763.4799829,
+  "log": "/mnt/jd/users/tengshiyuan.1/codes/non-stationary-ts/tsfm_missing/experiments/s71_boundary/s71_train_timer_cpt_s2.log",
+  "ended": 1788450836.4825943
+ },
+ "train_timesfm_cpt": {
+  "card": 1,
+  "pid": 4016704,
+  "status": "finished?",
+  "cmd": "cd /mnt/jd/users/tengshiyuan.1/codes/non-stationary-ts/tsfm_missing/experiments/s71_boundary && ( CUDA_VISIBLE_DEVICES=1 /mnt/jd/users/tengshiyuan.1/codes/non-stationary-ts/.venv/bin/python run_s71_timesfm.py --arm cpt --bs 256 --device cuda:0 && /mnt/jd/users/tengshiyuan.1/codes/non-stationary-ts/.venv/bin/python eval_s71.py --models timesfm --arms cpt --parts probe,sweep,clean,leaderboard --device cuda:0 ) > /mnt/jd/users/tengshiyuan.1/codes/non-stationary-ts/tsfm_missing/experiments/s71_boundary/s71_train_timesfm_cpt.log 2>&1",
+  "started": 1788448896.0415618,
+  "log": "/mnt/jd/users/tengshiyuan.1/codes/non-stationary-ts/tsfm_missing/experiments/s71_boundary/s71_train_timesfm_cpt.log",
+  "ended": 1788450836.4825969
+ },
+ "train_timesfm_ctl5k": {
+  "card": 3,
+  "pid": 4016774,
+  "status": "finished?",
+  "cmd": "cd /mnt/jd/users/tengshiyuan.1/codes/non-stationary-ts/tsfm_missing/experiments/s71_boundary && ( CUDA_VISIBLE_DEVICES=3 /mnt/jd/users/tengshiyuan.1/codes/non-stationary-ts/.venv/bin/python run_s71_timesfm.py --arm ctl5k --bs 256 --device cuda:0 && /mnt/jd/users/tengshiyuan.1/codes/non-stationary-ts/.venv/bin/python eval_s71.py --models timesfm --arms ctl5k --parts probe,sweep,clean,leaderboard --device cuda:0 ) > /mnt/jd/users/tengshiyuan.1/codes/non-stationary-ts/tsfm_missing/experiments/s71_boundary/s71_train_timesfm_ctl5k.log 2>&1",
+  "started": 1788448896.1115673,
+  "log": "/mnt/jd/users/tengshiyuan.1/codes/non-stationary-ts/tsfm_missing/experiments/s71_boundary/s71_train_timesfm_ctl5k.log",
+  "ended": 1788450896.703627
+ },
+ "train_timesfm_cpt_s2": {
+  "card": 7,
+  "pid": 4018437,
+  "status": "finished?",
+  "cmd": "cd /mnt/jd/users/tengshiyuan.1/codes/non-stationary-ts/tsfm_missing/experiments/s71_boundary && ( CUDA_VISIBLE_DEVICES=7 /mnt/jd/users/tengshiyuan.1/codes/non-stationary-ts/.venv/bin/python run_s71_timesfm.py --arm cpt --seed 20260904 --bs 256 --device cuda:0 && /mnt/jd/users/tengshiyuan.1/codes/non-stationary-ts/.venv/bin/python eval_s71.py --models timesfm --arms cpt@20260904 --parts probe,sweep,clean,leaderboard --device cuda:0 ) > /mnt/jd/users/tengshiyuan.1/codes/non-stationary-ts/tsfm_missing/experiments/s71_boundary/s71_train_timesfm_cpt_s2.log 2>&1",
+  "started": 1788448981.7092836,
+  "log": "/mnt/jd/users/tengshiyuan.1/codes/non-stationary-ts/tsfm_missing/experiments/s71_boundary/s71_train_timesfm_cpt_s2.log",
+  "ended": 1788450836.4826016
+ },
+ "eval_timesfm_cpt": {
+  "card": 5,
+  "pid": 4050338,
+  "status": "finished?",
+  "cmd": "cd /mnt/jd/users/tengshiyuan.1/codes/non-stationary-ts/tsfm_missing/experiments/s71_boundary && ( export CUDA_VISIBLE_DEVICES=5; /mnt/jd/users/tengshiyuan.1/codes/non-stationary-ts/.venv/bin/python eval_s71.py --models timesfm --arms cpt --parts probe,sweep,clean,leaderboard --device cuda:0 ) > /mnt/jd/users/tengshiyuan.1/codes/non-stationary-ts/tsfm_missing/experiments/s71_boundary/s71_eval_timesfm_cpt.log 2>&1",
+  "started": 1788450836.5885434,
+  "log": "/mnt/jd/users/tengshiyuan.1/codes/non-stationary-ts/tsfm_missing/experiments/s71_boundary/s71_eval_timesfm_cpt.log",
+  "ended": 1788451033.1400788
+ },
+ "eval_timesfm_cpt_s2": {
+  "card": 5,
+  "pid": 4053880,
+  "status": "running",
+  "cmd": "cd /mnt/jd/users/tengshiyuan.1/codes/non-stationary-ts/tsfm_missing/experiments/s71_boundary && ( export CUDA_VISIBLE_DEVICES=5; /mnt/jd/users/tengshiyuan.1/codes/non-stationary-ts/.venv/bin/python eval_s71.py --models timesfm --arms cpt@20260904 --parts probe,sweep,clean,leaderboard --device cuda:0 ) > /mnt/jd/users/tengshiyuan.1/codes/non-stationary-ts/tsfm_missing/experiments/s71_boundary/s71_eval_timesfm_cpt_s2.log 2>&1",
+  "started": 1788451033.2475517,
+  "log": "/mnt/jd/users/tengshiyuan.1/codes/non-stationary-ts/tsfm_missing/experiments/s71_boundary/s71_eval_timesfm_cpt_s2.log"
+ },
+ "train_tempopfn_cpt_s2": {
+  "card": 6,
+  "pid": 4058948,
+  "status": "running",
+  "cmd": "cd /mnt/jd/users/tengshiyuan.1/codes/non-stationary-ts/tsfm_missing/experiments/s71_boundary && ( export CUDA_VISIBLE_DEVICES=6; /mnt/jd/users/tengshiyuan.1/codes/non-stationary-ts/.venv/bin/python run_s71_tempopfn.py --arm cpt --seed 20260904 --bs 128 --device cuda:0 && /mnt/jd/users/tengshiyuan.1/codes/non-stationary-ts/.venv/bin/python eval_s71.py --models tempopfn --arms cpt@20260904 --parts probe,sweep,clean,leaderboard --device cuda:0 ) > /mnt/jd/users/tengshiyuan.1/codes/non-stationary-ts/tsfm_missing/experiments/s71_boundary/s71_train_tempopfn_cpt_s2.log 2>&1",
+  "started": 1788451273.826132,
+  "log": "/mnt/jd/users/tengshiyuan.1/codes/non-stationary-ts/tsfm_missing/experiments/s71_boundary/s71_train_tempopfn_cpt_s2.log"
+ }
+}

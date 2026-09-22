@@ -1,0 +1,4 @@
+# S71 queue phase 1: G0 stock reproduction (leaderboard+probe+sweep+clean for stock)
+g0_timer | eval_s71.py --models timer --arms stock --parts g0,probe,sweep,clean,leaderboard --device cuda:0
+g0_timesfm | eval_s71.py --models timesfm --arms stock --parts g0,probe,sweep,clean,leaderboard --device cuda:0
+g0_tempopfn | eval_s71.py --models tempopfn --arms stock --parts g0,probe,sweep,clean,leaderboard --device cuda:0

@@ -1,0 +1,1 @@
+{"dataset": "ETTm1", "model": "recon03", "layer": 6, "ev_pca": 0.9037196636199951, "mcar:0.7": {"r2_l6_fullmiss": 0.6991744396446169, "n_train": 514, "n_test": 514, "y_var_test": 0.7789424562617225}, "block:0.7": {"r2_l6_fullmiss": 0.5622401292568923, "n_train": 38604, "n_test": 38604, "y_var_test": 0.7572428428978056}}

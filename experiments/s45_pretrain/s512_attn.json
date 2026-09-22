@@ -1,0 +1,79 @@
+{
+ "meta": {
+  "patch": 16,
+  "L": 512,
+  "mech": "block",
+  "rate": 0.5,
+  "datasets": [
+   "ETTh1",
+   "ETTm1",
+   "weather"
+  ],
+  "alphas": [
+   0.0,
+   1.0
+  ],
+  "n_win": 20,
+  "note": "share ratio = attention on masked patches / uniform"
+ },
+ "ETTh1|a=0.0|P0": {
+  "median_share_ratio": 0.8038466572761536,
+  "mean_share_ratio": 0.8034092783927917,
+  "n": 140
+ },
+ "ETTh1|a=0.0|P5": {
+  "median_share_ratio": 0.8321988582611084,
+  "mean_share_ratio": 0.8288588523864746,
+  "n": 140
+ },
+ "ETTh1|a=1.0|P0": {
+  "median_share_ratio": 0.8075953125953674,
+  "mean_share_ratio": 0.8072843551635742,
+  "n": 140
+ },
+ "ETTh1|a=1.0|P5": {
+  "median_share_ratio": 0.8591426610946655,
+  "mean_share_ratio": 0.8545836210250854,
+  "n": 140
+ },
+ "ETTm1|a=0.0|P0": {
+  "median_share_ratio": 0.8157376050949097,
+  "mean_share_ratio": 0.8152484893798828,
+  "n": 140
+ },
+ "ETTm1|a=0.0|P5": {
+  "median_share_ratio": 0.848936915397644,
+  "mean_share_ratio": 0.8456754684448242,
+  "n": 140
+ },
+ "ETTm1|a=1.0|P0": {
+  "median_share_ratio": 0.8177450895309448,
+  "mean_share_ratio": 0.8172788023948669,
+  "n": 140
+ },
+ "ETTm1|a=1.0|P5": {
+  "median_share_ratio": 0.8632121086120605,
+  "mean_share_ratio": 0.8607717156410217,
+  "n": 140
+ },
+ "weather|a=0.0|P0": {
+  "median_share_ratio": 0.8319453597068787,
+  "mean_share_ratio": 0.8322607278823853,
+  "n": 420
+ },
+ "weather|a=0.0|P5": {
+  "median_share_ratio": 0.8720957040786743,
+  "mean_share_ratio": 0.8713962435722351,
+  "n": 420
+ },
+ "weather|a=1.0|P0": {
+  "median_share_ratio": 0.8328448534011841,
+  "mean_share_ratio": 0.8328447341918945,
+  "n": 420
+ },
+ "weather|a=1.0|P5": {
+  "median_share_ratio": 0.8813012838363647,
+  "mean_share_ratio": 0.8773525357246399,
+  "n": 420
+ }
+}

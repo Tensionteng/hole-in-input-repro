@@ -1,0 +1,34 @@
+{
+ "n_train": 100000,
+ "n_eval": 256,
+ "T": 1024,
+ "L": 512,
+ "H": 64,
+ "round": "s69b",
+ "harm_k": 3,
+ "harm_bank": [
+  192,
+  384,
+  768
+ ],
+ "harm_share": [
+  0.6,
+  0.85
+ ],
+ "train_seed": 6901001,
+ "eval_seed": 6901002,
+ "minutes": 0.2988338828086853,
+ "code_hash": "683e83b3771cd6a2",
+ "train_var_x": 0.9898713588996594,
+ "train_var_c": 0.9941643681176894,
+ "train_lag1_mean": 0.9438539668458918,
+ "train_lag1_vs_phi_mae": 0.11596076930942334,
+ "train_corr_xc_mean": 0.6964952121537509,
+ "train_corr_vs_rho_mae": 0.013928615017574808,
+ "eval_var_x": 1.0578527884145184,
+ "eval_var_c": 1.0357609243330963,
+ "eval_lag1_mean": 0.94348093082114,
+ "eval_lag1_vs_phi_mae": 0.11891242076559805,
+ "eval_corr_xc_mean": 0.6857224320899802,
+ "eval_corr_vs_rho_mae": 0.016080000447098675
+}

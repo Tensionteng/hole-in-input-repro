@@ -1,0 +1,41 @@
+closure = (declared - restored) / (declared - 1) at alpha=1, own-clean normalised
+cells where the declared path's own excess is < 0.02 are n/a: nothing to close
+
+dataset                 scattered      block  censoring    extreme
+------------------------------------------------------------------
+ETTh1        p=0.3          83.4%        n/a      69.6%      89.5%
+             p=0.7          48.0%      39.0%      30.8%      84.9%
+ETTm1        p=0.3          61.9%      34.4%      53.1%      74.5%
+             p=0.7          47.1%      38.4%      37.5%      71.0%
+weather      p=0.3          28.2%     -33.1%      75.0%      79.1%
+             p=0.7          52.6%       0.3%      65.0%      53.3%
+ETTh2        p=0.3          56.8%        n/a      59.5%      80.8%
+             p=0.7          24.6%      43.4%      42.9%      75.7%
+ETTm2        p=0.3          64.6%      45.6%      56.9%      71.8%
+             p=0.7          51.3%      21.3%      57.1%      74.7%
+electricity  p=0.3          93.5%      54.8%      87.9%      94.5%
+             p=0.7          82.3%      53.2%      48.1%      95.0%
+traffic      p=0.3          82.5%      37.3%      83.9%      96.1%
+             p=0.7          78.7%      47.0%      51.7%      93.9%
+exchange     p=0.3            n/a        n/a     111.0%       6.2%
+             p=0.7           8.7%        n/a      85.7%      44.4%
+illness      p=0.3         426.5%      92.9%     151.9%     472.2%
+             p=0.7         281.3%      84.1%      28.6%     100.1%
+
+in-sample (3 datasets)   n= 23  positive 22/23  median  53.1%  IQR [37.9,72.7]%  min -33.1%
+held out (6 datasets)    n= 44  positive 44/44  median  73.2%  IQR [47.8,93.1]%  min 6.2%
+
+alpha=0 control (restored must not be worse than declared when the imputer is poor)
+  in-sample    restored no worse in 16/23 cells
+  held out     restored no worse in 25/44 cells
+
+clean-context control (adapted vs released weights, no missingness at all)
+  ETTh1        plain=0.9814  native=0.9831  dual=0.9735  dual_obsnorm=0.9842
+  ETTm1        plain=1.0013  native=0.9981  dual=0.9922  dual_obsnorm=1.0151
+  weather      plain=0.9886  native=0.9770  dual=0.9707  dual_obsnorm=0.9748
+  ETTh2        plain=1.0044  native=0.9953  dual=0.9860  dual_obsnorm=0.9869
+  ETTm2        plain=1.0043  native=0.9845  dual=0.9900  dual_obsnorm=0.9918
+  electricity  plain=1.0994  native=1.0599  dual=1.0890  dual_obsnorm=1.1127
+  traffic      plain=1.0812  native=1.0523  dual=1.0550  dual_obsnorm=1.0879
+  exchange     plain=1.0318  native=1.0468  dual=0.9751  dual_obsnorm=1.0215
+  illness      plain=0.9297  native=1.0885  dual=1.0067  dual_obsnorm=1.0520

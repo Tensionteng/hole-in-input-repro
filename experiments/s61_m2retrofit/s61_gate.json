@@ -1,0 +1,146 @@
+{
+ "meta": {
+  "model": "models_local/moirai-2.0-R-small (uni2ts, local)",
+  "dtype": "float32",
+  "tf32": false,
+  "L": 512,
+  "H": 64
+ },
+ "libcheck": {
+  "max_abs_diff": 0.0,
+  "pass": true,
+  "batchsize_numeric_gap": 1.9073486328125e-05,
+  "note": "library data path (gluonts transform + splitter + batching, bs 64) vs m2_iface.median_fwd at bs 64; s46's V1 recorded max_abs_diff = 0.0 for the same call. batchsize_numeric_gap = ours bs64 vs bs512 (cuBLAS kernel choice; eval uses bs 1024)"
+ },
+ "train_forward": {
+  "loss": 0.32023388147354126,
+  "grad_norm": 0.11254057288169861,
+  "pass": true,
+  "note": "module training_mode + released PackedQuantileMAELoss, last-context-token -> 4 future tokens (the H=64 inference map)"
+ },
+ "pass": true,
+ "probe": {
+  "ETTh1|mcar|stock|plain": {
+   "perm_rms_rel": 0.26087847352027893,
+   "redraw_rms_rel": 0.2664108872413635,
+   "ratio": 0.9792335033416748,
+   "perm_max": 1.3758991956710815
+  },
+  "ETTh1|mcar|stock|nan": {
+   "perm_rms_rel": 0.3111129403114319,
+   "redraw_rms_rel": 0.3259013891220093,
+   "ratio": 0.9546229243278503,
+   "perm_max": 2.9451823234558105
+  },
+  "ETTh1|block|stock|plain": {
+   "perm_rms_rel": 0.18362028896808624,
+   "redraw_rms_rel": 0.20462501049041748,
+   "ratio": 0.8973501920700073,
+   "perm_max": 3.2948246002197266
+  },
+  "ETTh1|block|stock|nan": {
+   "perm_rms_rel": 0.1670011579990387,
+   "redraw_rms_rel": 0.17594705522060394,
+   "ratio": 0.9491557478904724,
+   "perm_max": 1.2383607625961304
+  },
+  "ETTh1|mnar_high|stock|plain": {
+   "perm_rms_rel": 0.08209168910980225,
+   "redraw_rms_rel": 0.2575216591358185,
+   "ratio": 0.31877586245536804,
+   "perm_max": 0.6892397999763489
+  },
+  "ETTh1|mnar_high|stock|nan": {
+   "perm_rms_rel": 0.10129214823246002,
+   "redraw_rms_rel": 0.2735666036605835,
+   "ratio": 0.37026503682136536,
+   "perm_max": 0.9402936100959778
+  },
+  "ETTm1|mcar|stock|plain": {
+   "perm_rms_rel": 0.25110605359077454,
+   "redraw_rms_rel": 0.24998140335083008,
+   "ratio": 1.0044989585876465,
+   "perm_max": 1.989356517791748
+  },
+  "ETTm1|mcar|stock|nan": {
+   "perm_rms_rel": 0.42667973041534424,
+   "redraw_rms_rel": 0.4218304455280304,
+   "ratio": 1.01149582862854,
+   "perm_max": 2.257742166519165
+  },
+  "ETTm1|block|stock|plain": {
+   "perm_rms_rel": 0.2085465043783188,
+   "redraw_rms_rel": 0.22801530361175537,
+   "ratio": 0.9146162867546082,
+   "perm_max": 2.9306254386901855
+  },
+  "ETTm1|block|stock|nan": {
+   "perm_rms_rel": 0.20146727561950684,
+   "redraw_rms_rel": 0.22893954813480377,
+   "ratio": 0.8800020813941956,
+   "perm_max": 1.694719672203064
+  },
+  "ETTm1|mnar_high|stock|plain": {
+   "perm_rms_rel": 0.1058630645275116,
+   "redraw_rms_rel": 0.3054209351539612,
+   "ratio": 0.34661364555358887,
+   "perm_max": 2.8268768787384033
+  },
+  "ETTm1|mnar_high|stock|nan": {
+   "perm_rms_rel": 0.11302744597196579,
+   "redraw_rms_rel": 0.3755805194377899,
+   "ratio": 0.3009406626224518,
+   "perm_max": 1.7145410776138306
+  },
+  "weather|mcar|stock|plain": {
+   "perm_rms_rel": 0.45767685770988464,
+   "redraw_rms_rel": 0.4513075649738312,
+   "ratio": 1.014112949371338,
+   "perm_max": 21.5079288482666
+  },
+  "weather|mcar|stock|nan": {
+   "perm_rms_rel": 0.3568250834941864,
+   "redraw_rms_rel": 0.3423861563205719,
+   "ratio": 1.0421714782714844,
+   "perm_max": 13.423076629638672
+  },
+  "weather|block|stock|plain": {
+   "perm_rms_rel": 0.32826435565948486,
+   "redraw_rms_rel": 0.33939433097839355,
+   "ratio": 0.9672063589096069,
+   "perm_max": 24.722002029418945
+  },
+  "weather|block|stock|nan": {
+   "perm_rms_rel": 0.26259931921958923,
+   "redraw_rms_rel": 0.2924450635910034,
+   "ratio": 0.8979440927505493,
+   "perm_max": 15.661815643310547
+  },
+  "weather|mnar_high|stock|plain": {
+   "perm_rms_rel": 0.4818578362464905,
+   "redraw_rms_rel": 0.41148293018341064,
+   "ratio": 1.1710275411605835,
+   "perm_max": 209.5472869873047
+  },
+  "weather|mnar_high|stock|nan": {
+   "perm_rms_rel": 0.6379261016845703,
+   "redraw_rms_rel": 0.33362263441085815,
+   "ratio": 1.9121187925338745,
+   "perm_max": 552.2467651367188
+  }
+ },
+ "probe_agg": {
+  "plain": {
+   "rho_median": 0.9672063589096069,
+   "rho_mean": 0.8459372553560469
+  },
+  "nan": {
+   "rho_median": 0.9491557478904724,
+   "rho_mean": 0.9243018494711982
+  }
+ },
+ "probe_ref": {
+  "s46_moirai2_nan_rho_median": 0.9492,
+  "s46_moirai2_plain_rho_median": 0.9672
+ }
+}

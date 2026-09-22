@@ -1,0 +1,16 @@
+# trained checkpoints live on Hugging Face, not in git
+*.pt
+*.pth
+*.safetensors
+*.ckpt
+
+# large non-claim-bearing result dump (kept out of git; see README)
+experiments/s20_textprompt/s20_results.json
+
+# caches and build products
+__pycache__/
+*.pyc
+*.log
+corpus_cache/
+.ipynb_checkpoints/
+.DS_Store

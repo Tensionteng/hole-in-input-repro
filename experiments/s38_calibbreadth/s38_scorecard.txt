@@ -1,0 +1,62 @@
+empirical coverage of the nominal 0.90 interval, by TRUE mechanism
+
+dataset         acc group            n     native      naive     m-pred   m-oracle   width x
+ETTh1 *        0.99 clean          203      0.717      0.923      0.879      0.879     1.37x
+                    scattered      249      0.709      0.927      0.902      0.901     1.47x
+                    block          177      0.751      0.949      0.925      0.926     1.49x
+                    censoring      128      0.442      0.797      0.907      0.904     2.76x
+                    extreme         83      0.469      0.878      0.932      0.935     3.50x
+ETTm1 *        0.99 clean          203      0.739      0.914      0.874      0.874     1.27x
+                    scattered      249      0.741      0.913      0.893      0.893     1.42x
+                    block          177      0.725      0.928      0.916      0.916     1.53x
+                    censoring      128      0.474      0.780      0.881      0.884     2.47x
+                    extreme         83      0.439      0.834      0.920      0.912     3.78x
+weather *      0.87 clean          350      0.723      0.924      0.879      0.883     1.83x
+                    scattered      424      0.739      0.921      0.899      0.899     1.06x
+                    block          294      0.729      0.918      0.881      0.879     1.16x
+                    censoring      232      0.541      0.805      0.907      0.920     5.26x
+                    extreme        119      0.503      0.833      0.916      0.904     2.44x
+ETTh2          0.94 clean          203      0.716      0.926      0.913      0.902     1.69x
+                    scattered      249      0.706      0.930      0.906      0.907     1.62x
+                    block          177      0.720      0.942      0.910      0.911     1.57x
+                    censoring      128      0.405      0.787      0.882      0.879     3.12x
+                    extreme         83      0.428      0.846      0.918      0.926     3.69x
+ETTm2          0.95 clean          203      0.749      0.934      0.893      0.889     1.33x
+                    scattered      249      0.741      0.927      0.909      0.907     1.49x
+                    block          177      0.721      0.933      0.914      0.911     1.49x
+                    censoring      128      0.465      0.802      0.908      0.909     3.18x
+                    extreme         83      0.442      0.806      0.889      0.889     3.86x
+exchange       0.99 clean          237      0.722      0.936      0.918      0.918     1.75x
+                    scattered      287      0.692      0.932      0.923      0.923     1.86x
+                    block          204      0.717      0.953      0.913      0.913     1.57x
+                    censoring      140      0.520      0.853      0.857      0.857     2.36x
+                    extreme         92      0.320      0.732      0.907      0.910     6.95x
+illness        0.97 clean           78      0.618      0.912      0.913      0.913     7.86x
+                    scattered      102      0.623      0.922      0.921      0.921     5.83x
+                    block           70      0.457      0.885      0.887      0.887     4.82x
+                    censoring       62      0.175      0.860      0.895      0.866    25.44x
+                    extreme         31      0.250      0.887      0.887      0.887    14.73x
+electricity    1.00 clean          367      0.801      0.949      0.906      0.906     1.17x
+                    scattered      429      0.775      0.942      0.894      0.894     1.17x
+                    block          305      0.786      0.937      0.889      0.884     1.18x
+                    censoring      222      0.532      0.764      0.914      0.920     3.89x
+                    extreme        117      0.516      0.740      0.891      0.892     2.94x
+traffic        1.00 clean          367      0.789      0.934      0.889      0.889     1.40x
+                    scattered      429      0.790      0.930      0.888      0.888     1.30x
+                    block          305      0.798      0.937      0.897      0.895     1.39x
+                    censoring      222      0.524      0.769      0.902      0.910     5.68x
+                    extreme        117      0.503      0.774      0.901      0.896     4.08x
+
+* = one of the three datasets the detector was fitted on
+
+                                    native            naive           m-pred         m-oracle
+in-sample (3 datasets)       0.629+-0.126    0.883+-0.055    0.901+-0.018    0.901+-0.018
+held out (6 datasets)        0.600+-0.173    0.879+-0.071    0.901+-0.014    0.900+-0.016
+
+censoring groups only (18 cells across all 9 datasets):
+  native   0.442  (min 0.175)
+  1 pool   0.808  (min 0.732)
+  mondrian 0.901  (min 0.857); within 0.03 of nominal in 16/18
+
+predicted vs oracle grouping: max |delta| 0.0289, mean 0.0032
+detector accuracy: ETTh1=0.990  ETTm1=0.993  weather=0.871  ETTh2=0.938  ETTm2=0.945  exchange=0.992  illness=0.974  electricity=0.996  traffic=0.995

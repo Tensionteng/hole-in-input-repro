@@ -1,0 +1,1 @@
+{"clean:none:0.0": {"s9_mse": 14.219885274164715, "s5_mse": 14.219885274164715, "rel_dev": 0.0, "pass": true}, "mcar:linear:0.3": {"s9_mse": 15.834366594635155, "s5_mse": 15.834366594635155, "rel_dev": 0.0, "pass": true}, "mcar:zero:0.3": {"s9_mse": 19.541777566466195, "s5_mse": 19.541777566466195, "rel_dev": 0.0, "pass": true}, "_gate": {"threshold": 0.05, "pass": true}}

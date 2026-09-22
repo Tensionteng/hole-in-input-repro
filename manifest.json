@@ -1,0 +1,76 @@
+{
+  "_comment": "Paper claim -> source artifacts. 'verify' points to the script+check that asserts the value; 'ckpt' refers to ckpts/README.md entries. Result JSONs keep aggregates only where noted in README's results policy.",
+  "tables": {
+    "tab:related (T1 census overview)": {
+      "prose": "sections 2",
+      "results": ["experiments/s41_mae/part_*.json", "experiments/s60_c2retrofit/s60_probe.json", "experiments/s61_m2retrofit/s61_probe.json", "experiments/s62_tempopfn", "experiments/s71_boundary"],
+      "generator": "paper/iclr2026/figures/tab_related.tex (hand-written, values cross-checked by verify_paper_numbers_v2.py)"
+    },
+    "tab:families (T2 interface census)": {
+      "results": ["experiments/s41_mae/part_*.json", "experiments/s52_rhonoise", "experiments/s63_c2endpoint"],
+      "generator": "paper/iclr2026/figures/tab_families.tex",
+      "verify": "verify_paper_numbers_v2.py S41 section"
+    },
+    "tab:endtoend (T3 SAITS/BRITS)": {
+      "results": ["experiments/s42_end2end/s42_results.json"],
+      "generator": "paper/iclr2026/figures/tab_endtoend.tex",
+      "verify": "verify_paper_numbers_v2.py: oracle row 40.2, declared 2.799"
+    },
+    "tab:factorial (T4 2x2 within bolt-tiny)": {
+      "results": ["experiments/s45_pretrain/s48_eval_seeds.json", "experiments/s45_pretrain/s48_closure*.json"],
+      "ckpt": "bolt-tiny factorial arms A-D x3 seeds",
+      "verify": "verify_paper_numbers_v2.py: 88.7, -47.6, 72.7, rho 0.852"
+    },
+    "tab:causal (T5 Moirai vs bolt sweeps)": {
+      "results": ["experiments/s61_m2retrofit/s61_grid.json", "experiments/s41_mae/part_*.json"],
+      "verify": "verify_paper_numbers_v2.py: moirai2 declared ETTh1 1.37"
+    },
+    "tab:leaderboard (T6 relative degradation after CPT)": {
+      "results": ["experiments/s45_pretrain/s57_q50.json", "experiments/s45_pretrain/s57_bolt.json", "experiments/s45_pretrain/s57_p4.json", "experiments/s60_c2retrofit/s60_leaderboard.json", "experiments/s61_m2retrofit/s61_leaderboard.json", "experiments/s65_fairbudget/s65_c2_grid.json", "experiments/s65_fairbudget/s65_m2_grid.json", "experiments/s64_bench3/s64_leaderboard_cells.json"],
+      "ckpt": "bolt P8/Q50, bolt P4 control, c2/m2 CPT+W50, c2/m2 controls",
+      "verify": "verify_paper_numbers_v2.py: 2.26, +4.3/+4.2, clean changes +5.2/+2.5 (aggregation script s64_bench3/aggregate_s64_leaderboard.py)"
+    },
+    "tab:doseresponse (T7 GIFT-Eval dose strata)": {
+      "results": ["experiments/s64_bench3/s64_gift_dose.json", "experiments/s64_bench3/s64_gift_report.json", "experiments/s66_field/s66_gift_rows.json"],
+      "generator": "paper/iclr2026/figures/tab_doseresponse.tex",
+      "verify": "verify_main_text.py / verify_appendix.py dose sections"
+    }
+  },
+  "figures": {
+    "fig:problem (F1 mechanism/rate/real-data panels)": {
+      "results": ["experiments/s05_characterization/s5_missing_results.json", "experiments/s06_real_and_repairs", "experiments/s14_metrla"],
+      "generator": "paper/iclr2026/figures/make_fig_problem.py",
+      "verify": "verify_paper_numbers_v2.py: 2.17/1.07 three-dataset means, 2.52/1.26 ETTh1 row"
+    },
+    "fig:conventions (F2 three bolt paths)": {
+      "results": ["experiments/s41_mae/part_*.json"],
+      "generator": "paper/iclr2026/figures/fig_conventions.tex (tikz, values from S41 probe)"
+    },
+    "fig:cap (F3 fill-quality sweeps)": {
+      "results": ["experiments/s45_pretrain/s54_sweep9_*.json", "experiments/s37_capbreadth", "experiments/s27_interface/s27_results.json"],
+      "ckpt": "s27 input adapters",
+      "generator": "paper/iclr2026/figures/make_fig_cap.py"
+    },
+    "fig:arena (app trust arena)": {
+      "results": ["experiments/s69_arena"],
+      "ckpt": "arena arms A-D final steps",
+      "generator": "paper/iclr2026/figures/make_fig_arena.py"
+    }
+  },
+  "key_numbers": {
+    "GIFT-Eval 11.77% NaN of 305M points": {"verify": "verify_main_text.py FULL_SCAN=1; verify_paper_numbers_v2.py s12558 section (full-corpus rescan)"},
+    "MASE spread 94%/106% above 30% missing": {"results": ["experiments/s32_gifteval", "experiments/s66_field"]},
+    "Penmanshiel filter: 26% windows, NMSE 17.65 vs 1.66, -15.4%": {"results": ["experiments/s10_real_results", "experiments/s14_metrla"], "verify": "verify_main_text.py"},
+    "bolt zero-fill 9.80 vs 2.26; c2 10.78 vs 1.81; m2 8.64 vs 2.80": {"results": ["experiments/s45_pretrain/s57_p4.json", "experiments/s65_fairbudget/s65_summary.json"], "verify": "verify_paper_numbers_v2.py"},
+    "absolute win rates 74.0/62.1/61.1%": {"results": ["experiments/s73_absolute"], "verify": "verify_paper_numbers_v2.py (registered)"},
+    "routing win rates 0.43/0.39 -> 0.56-0.71": {"results": ["experiments/s64_bench3/s64_gift_dose.json"]},
+    "full-outage relMSE ~1e9; |v| 0.4 vs 12.2; 12.24->9.85 ~80x": {"results": ["experiments/s70_rcprobe", "experiments/s72_rootcause"]},
+    "boundary: TimesFM/TempoPFN rho 0, closure 0%; Timer-base no declared path": {"results": ["experiments/s71_boundary", "experiments/s62_tempopfn"], "ckpt": "boundary CPT arms (s71)"},
+    "c2 raw-NaN path wins 26/36 cells": {"results": ["experiments/s65_fairbudget", "experiments/s60_c2retrofit"], "verify": "verify_appendix.py"},
+    "SAITS/BRITS closure +6.8/+10.6 vs -6.7/-7.2; oracle 40.2": {"results": ["experiments/s42_end2end/s42_results.json"], "verify": "verify_paper_numbers_v2.py"},
+    "205M capacity: 99.5% closure at 205M; -4.8% mech-diverse": {"results": ["experiments/s45_pretrain/s48_eval_base*.json", "experiments/s45_pretrain/s56_eval_base.json"], "ckpt": "205M capacity arms"},
+    "attack multipliers 3.06/1.18/1.00 METR-LA; c2 1.40; m2 1.29-2.49": {"results": ["experiments/s25_twofloor", "experiments/s44_attack_c2", "experiments/s46_moirai2/s46_results.json"], "verify": "verify_paper_numbers_v2.py: 2.49/1.29"},
+    "covariates 1.357 vs 1.023 declared": {"results": ["experiments/s31_crosschannel", "experiments/s31b_metrla_neighbours"]},
+    "adapters 53% closure (22/23); 73% held-out (44/44); 59/67 at 0.25": {"results": ["experiments/s27_interface/s27_results.json", "experiments/s37_capbreadth"], "ckpt": "s27 input adapters"}
+  }
+}

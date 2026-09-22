@@ -1,0 +1,552 @@
+{
+ "01_intro.tex": [
+  [
+   "305",
+   "the holes are not rare: $11.77\\%$ of GIFT-Eval's $305$M points are missing,"
+  ],
+  [
+   "20.15",
+   ".77\\%$ of GIFT-Eval's $305$M points are missing, $20.15\\%$ of the raw UCI e"
+  ]
+ ],
+ "02_related.tex": [
+  [
+   "2025",
+   "iltering has not made them clean. \\paragraph{The 2025 generation converges"
+  ]
+ ],
+ "04_audit.tex": [
+  [
+   "305",
+   "ngness (Section~ ), yet $11.77\\%$ of GIFT-Eval's $305$ million points are \\"
+  ]
+ ],
+ "05_interface.tex": [
+  [
+   "2025",
+   "ed form of the interface Section~ restores. The $2025$ discarders (TiRex,"
+  ]
+ ],
+ "06_consequences.tex": [
+  [
+   "2.49",
+   "d on Moirai 2.0's retaining path ($\\times 1.29$--$2.49$). These are one mea"
+  ]
+ ],
+ "07_cause.tex": [
+  [
+   "1.37",
+   "rate $0.7$ Moirai 2.0's declared path falls from $1.37$ to $1.18$ on ETTh1"
+  ],
+  [
+   "1.25",
+   "ished; under block outages Moirai 2.0 falls from $1.25$ to $1.09$, flat the"
+  ],
+  [
+   "3.51",
+   "te $0.7$ both declared paths move substantially ($3.51 \\to 1.78$ for \\bolt{"
+  ],
+  [
+   "1.78",
+   "both declared paths move substantially ($3.51 \\to 1.78$ for \\bolt{}, $3.37"
+  ],
+  [
+   "3.37",
+   "move substantially ($3.51 \\to 1.78$ for \\bolt{}, $3.37 \\to 1.19$ for Moirai"
+  ],
+  [
+   "1.19",
+   "tantially ($3.51 \\to 1.78$ for \\bolt{}, $3.37 \\to 1.19$ for Moirai 2.0 on E"
+  ],
+  [
+   "2025",
+   "ction~ is a pretraining-time choice. Third, the $2025$ recipes do not sett"
+  ],
+  [
+   "2025",
+   "of Table~ , holds at $205$M parameters, and the $2025$ recipes lose to bot"
+  ],
+  [
+   "5.5",
+   "model how much to trust. The prescription costs $5.5\\%$ of clean accuracy"
+  ]
+ ],
+ "087_retrofit.tex": [
+  [
+   "2.03",
+   "{} the untrained declaration endpoint collapses ($2.03 \\to 10.78$ on zero f"
+  ],
+  [
+   "1.43",
+   "y recipe's ($\\times 1.18$--$1.20$ against $\\times 1.43$): declaration train"
+  ]
+ ],
+ "appC_datamodels.tex": [
+  [
+   "305",
+   "NaNs, in most of their series, $11.77\\%$ of its $305$M points overall. Sec"
+  ],
+  [
+   "20.15",
+   "lateaus instead (the UCI electricity original is $20.15\\%$ zeros, with $212"
+  ],
+  [
+   "212",
+   "CI electricity original is $20.15\\%$ zeros, with $212$ of $370$ clients' fi"
+  ],
+  [
+   "2011",
+   "70$ clients' first nonzero reading arriving after 2011-01-01 and $161$ of t"
+  ],
+  [
+   "01",
+   "lients' first nonzero reading arriving after 2011-01-01 and $161$ of them a"
+  ],
+  [
+   "01",
+   "nts' first nonzero reading arriving after 2011-01-01 and $161$ of them afte"
+  ]
+ ],
+ "appD_probes.tex": [
+  [
+   "0.61",
+   "rho$ of $0.95$--$0.99$ against floors of $0.47$--$0.61$. Retention survives"
+  ],
+  [
+   "0.46",
+   "number of blocks (up to $0.32$ at $H = 128$ and $0.46$ at $H = 192$ on sca"
+  ],
+  [
+   "1.167",
+   "ed dropout; on ETTh1 alone $1.804 \\to 1.002$ and $1.167 \\to 1.000$), where"
+  ],
+  [
+   "0.927",
+   "cattered-dropout and block-outage cells (down to $0.927$ on ETTm1 at rate $"
+  ],
+  [
+   "0.258",
+   "age under value censoring at rate $0.7$ falls to $0.258$--$0.381$. The fail"
+  ],
+  [
+   "0.381",
+   "value censoring at rate $0.7$ falls to $0.258$--$0.381$. The failure shape"
+  ],
+  [
+   "15.5",
+   "cally clear gain ($+5.7\\%$ on ETTh1, paired $t = -15.5$, winning on $98\\%$"
+  ]
+ ],
+ "appE_charac.tex": [
+  [
+   "1.26",
+   "y unharmed up to $50\\%$ missing and reaches only $1.26\\times$ its clean err"
+  ],
+  [
+   "2.52",
+   "70\\%$. Under value censoring the same rate costs $2.52\\times$, and the dama"
+  ],
+  [
+   "0.078",
+   "ths predicts the spread at Spearman $+0.55$ ($p = 0.078$) and Pearson $+0.3"
+  ],
+  [
+   "49.9",
+   "\\ctwo{} and TiRex move the most on that dataset ($49.9\\%$ and $32.8\\%$) alt"
+  ],
+  [
+   "32.8",
+   "iRex move the most on that dataset ($49.9\\%$ and $32.8\\%$) although their d"
+  ],
+  [
+   "49.9",
+   "argest spreads all belong to discarders (\\ctwo{} $49.9\\%$, TiRex $32.8\\%$,"
+  ],
+  [
+   "32.8",
+   "ll belong to discarders (\\ctwo{} $49.9\\%$, TiRex $32.8\\%$, \\bolt{} base $32"
+  ]
+ ],
+ "appF_consequences.tex": [
+  [
+   "412",
+   "bing search under the same protocol and the same $412$ METR-LA windows: $8$"
+  ],
+  [
+   "1.158",
+   "xed fill for \\ctwo{} is again \\texttt{NaN} (NMSE $1.158$ against $1.220$ li"
+  ],
+  [
+   "10.5",
+   "ty is there: $\\times 1.40$ at the median, $\\times 10.5$ at the $90$th perce"
+  ],
+  [
+   "172",
+   ", $\\times 10.5$ at the $90$th percentile, $\\times 172$ at worst, $32\\%$ of"
+  ],
+  [
+   "2.49",
+   "on the same windows confirms it: $\\times 1.29$--$2.49$ at the median and $"
+  ],
+  [
+   "4.4",
+   ": $\\times 1.29$--$2.49$ at the median and $\\times 4.4$--$23.9$ at the $90$t"
+  ],
+  [
+   "23.9",
+   "es 1.29$--$2.49$ at the median and $\\times 4.4$--$23.9$ at the $90$th perce"
+  ],
+  [
+   "1.26",
+   "at the $90$th percentile, against $\\times 1.02$--$1.26$ for \\bolt{}'s rank-"
+  ]
+ ],
+ "appG_training.tex": [
+  [
+   "386618",
+   "texttt{covid\\_deaths}), Penmanshiel and METR-LA. $386{,}618$ real series ($"
+  ],
+  [
+   "4.7",
+   "enmanshiel and METR-LA. $386{,}618$ real series ($4.7$B points) plus $1$M K"
+  ],
+  [
+   "1024",
+   "the same seed, trained $15{,}000$ steps at batch $1024$ (AdamW, lr $3\\times"
+  ],
+  [
+   "72.7",
+   "mph{worst} of the three, and its mean closure is $72.7\\%$ rather than $55\\%"
+  ],
+  [
+   "2.5",
+   "-diverse is less its mean than its variance: $\\pm 2.5$ points against resto"
+  ],
+  [
+   "1.055",
+   "cate: restored $+$ mech-diverse's clean ratio is $1.055$, $1.036$ and $1.00"
+  ],
+  [
+   "1.036",
+   "tored $+$ mech-diverse's clean ratio is $1.055$, $1.036$ and $1.009$ across"
+  ],
+  [
+   "1.009",
+   "ch-diverse's clean ratio is $1.055$, $1.036$ and $1.009$ across the three s"
+  ],
+  [
+   "1.036",
+   ".036$ and $1.009$ across the three seeds, median $1.036$, which is inside t"
+  ],
+  [
+   "1.28",
+   "too: fill-diverse reaches $\\times 1.20$, $\\times 1.28$ and $\\times 1.34$,"
+  ],
+  [
+   "1.17",
+   "MSE ratio): ETTh1 $0.91$, ETTm1 $1.07$, weather $1.17$, ETTh2 $0.98$, ETTm"
+  ],
+  [
+   "1.055",
+   "ute errors are tiny; the median over the nine is $1.055$. \\paragraph{Repro"
+  ],
+  [
+   "1024",
+   "on the identical budget ($15{,}000$ steps, batch $1024$, restored interface"
+  ],
+  [
+   "2025",
+   "at the ladder shows.} The prescription beats the $2025$ recipes: $72.7\\%$ a"
+  ],
+  [
+   "72.7",
+   "ows.} The prescription beats the $2025$ recipes: $72.7\\%$ against $\\approx"
+  ],
+  [
+   "12.7",
+   "%$ against $\\approx 0\\%$ (Moirai-2.0 recipe) and $12.7\\%$ (CPM block-mask)."
+  ],
+  [
+   "99.5",
+   "riant (fill-diverse closes $76.3\\%$ at $48$M and $99.5\\%$ at $205$M, with c"
+  ],
+  [
+   "4.8",
+   "red $+$ mech-diverse \\emph{collapses} at $48$M ($-4.8\\%$), so the fill-dive"
+  ],
+  [
+   "187",
+   "sure fluctuates around zero across seeds (range $-187\\%$ to $+1\\%$): zero b"
+  ],
+  [
+   "20260826",
+   "e the reference arm (stock) as denominator. Seeds 20260826/20260901/2026090"
+  ],
+  [
+   "20260901",
+   "erence arm (stock) as denominator. Seeds 20260826/20260901/20260902. \\subs"
+  ],
+  [
+   "20260902",
+   "m (stock) as denominator. Seeds 20260826/20260901/20260902. \\subsubsection"
+  ],
+  [
+   "5.15",
+   "ple, ETTm1, value censoring at $0.7$: stock pays $5.15$ where its clean lev"
+  ],
+  [
+   "4.15",
+   "clean level is $1$, so the untouchable excess is $4.15$; an arm paying $3.1"
+  ],
+  [
+   "3.17",
+   "the untouchable excess is $4.15$; an arm paying $3.17$ closes $(5.15 - 3.1"
+  ],
+  [
+   "5.15",
+   "e excess is $4.15$; an arm paying $3.17$ closes $(5.15 - 3.17)/4.15 = 48\\%$"
+  ],
+  [
+   "3.17",
+   "s is $4.15$; an arm paying $3.17$ closes $(5.15 - 3.17)/4.15 = 48\\%$ of it."
+  ],
+  [
+   "4.15",
+   "4.15$; an arm paying $3.17$ closes $(5.15 - 3.17)/4.15 = 48\\%$ of it. The h"
+  ],
+  [
+   "12.1",
+   "age CPT by a small consistent margin ($+0.9/+5.9/+12.1$ per seed): the adap"
+  ],
+  [
+   "78.4",
+   "maller cost: one-stage CPT (fill-diverse) closes $78.4\\%$ $[+71,+82]$ at $1"
+  ],
+  [
+   "1.041",
+   "PT (fill-diverse) closes $78.4\\%$ $[+71,+82]$ at $1.041\\times$ clean; the W"
+  ],
+  [
+   "20.2",
+   "y with stock on both (Penmanshiel zero-fill NMSE $20.2$ vs $19.9$; METR-LA"
+  ],
+  [
+   "19.9",
+   "ck on both (Penmanshiel zero-fill NMSE $20.2$ vs $19.9$; METR-LA $2.11$ vs"
+  ],
+  [
+   "2.11",
+   "anshiel zero-fill NMSE $20.2$ vs $19.9$; METR-LA $2.11$ vs $2.14$ linear, w"
+  ],
+  [
+   "2.06",
+   "11$ vs $2.14$ linear, with better clean accuracy $2.06$ vs $2.99$). From-sc"
+  ],
+  [
+   "2.99",
+   "14$ linear, with better clean accuracy $2.06$ vs $2.99$). From-scratch arms"
+  ],
+  [
+   "16.9",
+   "From-scratch arms are unusable here (clean NMSE $16.9$--$76.1$ vs stock's"
+  ],
+  [
+   "5.85",
+   "sable here (clean NMSE $16.9$--$76.1$ vs stock's $5.85$ on Penmanshiel): th"
+  ],
+  [
+   "21.4",
+   "rofit does NOT beat the same fill through stock ($21.4$ vs $16.2$ on Penman"
+  ],
+  [
+   "16.2",
+   "NOT beat the same fill through stock ($21.4$ vs $16.2$ on Penmanshiel): re"
+  ],
+  [
+   "33.5",
+   "toward stock's quantiles ($\\lambda=10$) lands at $33.5\\%$ closure and $1.11"
+  ],
+  [
+   "45.9",
+   "33.5\\%$ closure and $1.110\\times$ clean at tiny ($45.9\\%/1.038$ at base): t"
+  ],
+  [
+   "1.038",
+   "closure and $1.110\\times$ clean at tiny ($45.9\\%/1.038$ at base): the anch"
+  ],
+  [
+   "12.9",
+   "training (the no-missingness control pays $3.8$--$12.9\\%$ without learning"
+  ],
+  [
+   "0.804",
+   "d by masked patches is flat across fill quality ($0.804 \\to 0.808$ as $\\alp"
+  ],
+  [
+   "0.832",
+   "), while the retrofit's rises with fill quality ($0.832 \\to 0.859$): the ce"
+  ],
+  [
+   "0.859",
+   "he retrofit's rises with fill quality ($0.832 \\to 0.859$): the ceiling is v"
+  ],
+  [
+   "20260901",
+   "aration endpoint $+$ $\\alphaq$-blend), one seed ($20260901$), effective bat"
+  ],
+  [
+   "1024",
+   "$-blend), one seed ($20260901$), effective batch $1024$) with one documente"
+  ],
+  [
+   "256",
+   "batch, so the batch is accumulated over $4 \\times 256$ ($62$ minutes on one"
+  ],
+  [
+   "1.039",
+   "nterpolation buys clean accuracy back to parity ($1.039 \\to 0.993$) at $26$"
+  ],
+  [
+   "0.993",
+   "on buys clean accuracy back to parity ($1.039 \\to 0.993$) at $26$ closure p"
+  ],
+  [
+   "53.9",
+   "039 \\to 0.993$) at $26$ closure points ($79.5 \\to 53.9$); closure at $\\alph"
+  ],
+  [
+   "82.4",
+   "($79.5 \\to 53.9$); closure at $\\alphaq = 0.5$ is $82.4\\%$ and $77.6\\%$ befo"
+  ],
+  [
+   "77.6",
+   ".9$); closure at $\\alphaq = 0.5$ is $82.4\\%$ and $77.6\\%$ before and after,"
+  ],
+  [
+   "1.75",
+   "econd, the one real clean regression is illness ($1.75\\times$ under CPT, $1"
+  ],
+  [
+   "1.48",
+   "n regression is illness ($1.75\\times$ under CPT, $1.48\\times$ after interpo"
+  ],
+  [
+   "2.03",
+   "ro fill it pays a median $20.13$ against stock's $2.03$ ($9.9\\times$, $2.7$"
+  ],
+  [
+   "2.7",
+   "ian $20.13$ against stock's $2.03$ ($9.9\\times$, $2.7$--$332\\times$ per dat"
+  ],
+  [
+   "332",
+   ".13$ against stock's $2.03$ ($9.9\\times$, $2.7$--$332\\times$ per dataset, $"
+  ],
+  [
+   "3327.8",
+   "on against any reference; worst cell exchange at $3{,}327.8$ against $3.59$"
+  ],
+  [
+   "3.59",
+   "ence; worst cell exchange at $3{,}327.8$ against $3.59$), while linear fill"
+  ],
+  [
+   "0.864",
+   "($65/72$), clean accuracy ($1.020$) and $\\rho$ ($0.864$) are all at or abo"
+  ],
+  [
+   "20260901",
+   "verbatim ($5{,}000$ steps from stock, one seed ($20260901$), the same corp"
+  ],
+  [
+   "0.1841",
+   "wn pretraining. Validation clean loss after CPT: $0.1841$ against stock's $"
+  ],
+  [
+   "0.1831",
+   "n clean loss after CPT: $0.1841$ against stock's $0.1831$. \\paragraph{W"
+  ],
+  [
+   "1.682",
+   "ipped weights' sweep endpoints move from stock's $1.682 \\to 1.183$ to $1.49"
+  ],
+  [
+   "1.183",
+   "hts' sweep endpoints move from stock's $1.682 \\to 1.183$ to $1.499 \\to 1.12"
+  ],
+  [
+   "1.123",
+   "move from stock's $1.682 \\to 1.183$ to $1.499 \\to 1.123$: better at \\emph{b"
+  ],
+  [
+   "14.3",
+   "$ to $\\times 1.30$ at the median and from $\\times 14.3$ to $\\times 5.4$ at"
+  ],
+  [
+   "1.16",
+   "scattered dropout pays $1.21$ at $\\alphaq = 0$, $1.16$ at $\\alphaq = 0.5$,"
+  ],
+  [
+   "1.73",
+   "at $\\alphaq = 0$, $1.16$ at $\\alphaq = 0.5$, and $1.73$ at $\\alphaq = 1$: w"
+  ],
+  [
+   "6.05",
+   "ure cells drop from $31\\%$ to $9\\%$ (worst cell $-6.05 \\to -0.52$) while ke"
+  ]
+ ],
+ "appH_fills.tex": [
+  [
+   "1.171",
+   "ered dropout at rate $0.7$ its median moves from $1.171$ (linear) to $1.162"
+  ],
+  [
+   "1.162",
+   "$0.7$ its median moves from $1.171$ (linear) to $1.162$ (oracle), while th"
+  ],
+  [
+   "1.221",
+   "62$ (oracle), while the restored path moves from $1.221$ to $1.084$: the ce"
+  ],
+  [
+   "2.799",
+   "hrm{scale})$ (SAITS moves the declared path from $2.799$ to $1.660$ on ETTh"
+  ],
+  [
+   "1.291",
+   "he information floor until it is real ($1.420 \\to 1.291$ at $\\alphaq = 1$)."
+  ],
+  [
+   "0.056",
+   "e rather than scale: the Pearson coefficient is $-0.056$ ($p = 0.55$). \\pa"
+  ],
+  [
+   "0.38",
+   "ism Spearman coefficients are $-0.33$, $-0.48$, $-0.38$ and $-0.59$, median"
+  ],
+  [
+   "0.59",
+   "coefficients are $-0.33$, $-0.48$, $-0.38$ and $-0.59$, median $-0.43$, so"
+  ],
+  [
+   "7.8",
+   "old at $\\psi = 0.86$ separates the cells into a $+7.8\\%$ and a $-15.0\\%$ gr"
+  ],
+  [
+   "3.6",
+   "of windows degrading by more than $2\\times$ and $3.6\\%$ by more than $5\\ti"
+  ],
+  [
+   "2.52",
+   "imputation beats linear on synthetic censoring ($2.52 \\to 1.97$) and loses"
+  ],
+  [
+   "1.97",
+   "on beats linear on synthetic censoring ($2.52 \\to 1.97$) and loses on real"
+  ],
+  [
+   "2.17",
+   "lock missingness and partially repair censoring ($2.17 \\to 1.36$) without r"
+  ]
+ ]
+}

@@ -1,0 +1,124 @@
+{
+ "pooled_median": {
+  "vanilla|zero|clean": 1.9130581617355347,
+  "vanilla|zero|corrupt": 1.9843617677688599,
+  "vanilla|linear|clean": 1.0842581987380981,
+  "vanilla|linear|corrupt": 1.1489587426185608,
+  "vanilla|oracle|clean": 0.9859035611152649,
+  "vanilla|oracle|corrupt": 1.005782961845398,
+  "ctl5k|zero|clean": 1.628883957862854,
+  "ctl5k|zero|corrupt": 1.5796751976013184,
+  "ctl5k|linear|clean": 1.0444963574409485,
+  "ctl5k|linear|corrupt": 1.0607102513313293,
+  "ctl5k|oracle|clean": 1.0285181403160095,
+  "ctl5k|oracle|corrupt": 1.039872407913208,
+  "cpt|zero|clean": 1.0631064772605896,
+  "cpt|zero|corrupt": 1.058424949645996,
+  "cpt|linear|clean": 1.0214098691940308,
+  "cpt|linear|corrupt": 1.0260950326919556,
+  "cpt|oracle|clean": 1.0086227655410767,
+  "cpt|oracle|corrupt": 1.015671730041504
+ },
+ "P1": {
+  "stratum_spread_median": 0.7172746198434321,
+  "stratum_spread_max": 2.998565830013761,
+  "pooled_spread": {
+   "clean": 0.698295312991729,
+   "corrupt": 0.7092686707314223
+  },
+  "pass": false
+ },
+ "P2": {
+  "q_c_effect": {
+   "vanilla": {
+    "zero": -0.0713036060333252,
+    "linear": -0.06470054388046265,
+    "oracle": -0.019879400730133057
+   },
+   "ctl5k": {
+    "zero": 0.049208760261535645,
+    "linear": -0.01621389389038086,
+    "oracle": -0.011354267597198486
+   },
+   "cpt": {
+    "zero": 0.004681527614593506,
+    "linear": -0.004685163497924805,
+    "oracle": -0.007048964500427246
+   }
+  },
+  "ratio_zero_over_oracle": {
+   "vanilla": 3.5868086267431436,
+   "ctl5k": -4.333944029439402,
+   "cpt": -0.6641440192115811
+  },
+  "pass": false
+ },
+ "P3": {
+  "cpt_zero_over_oracle_clean": 1.0540179277931379,
+  "vanilla_zero_over_oracle_clean": 1.940411047477567,
+  "ctl5k_zero_over_oracle_clean": 1.5837192306227905,
+  "pass": true
+ },
+ "per_dataset_median": {
+  "weather": {
+   "vanilla|zero|clean": 2.483046770095825,
+   "vanilla|zero|corrupt": 2.4115612506866455,
+   "vanilla|linear|clean": 1.0004803836345673,
+   "vanilla|linear|corrupt": 1.1064981818199158,
+   "vanilla|oracle|clean": 0.9540173411369324,
+   "vanilla|oracle|corrupt": 1.0150488018989563,
+   "ctl5k|zero|clean": 1.6384366750717163,
+   "ctl5k|zero|corrupt": 1.5667285919189453,
+   "ctl5k|linear|clean": 1.0180547833442688,
+   "ctl5k|linear|corrupt": 1.0485868453979492,
+   "ctl5k|oracle|clean": 1.0148646831512451,
+   "ctl5k|oracle|corrupt": 1.0280108451843262,
+   "cpt|zero|clean": 1.0269994139671326,
+   "cpt|zero|corrupt": 1.0479519963264465,
+   "cpt|linear|clean": 0.9890086650848389,
+   "cpt|linear|corrupt": 1.0182907581329346,
+   "cpt|oracle|clean": 0.9749669134616852,
+   "cpt|oracle|corrupt": 1.0087966918945312
+  },
+  "ETTh1": {
+   "vanilla|zero|clean": 1.5438528656959534,
+   "vanilla|zero|corrupt": 1.656901478767395,
+   "vanilla|linear|clean": 1.179935872554779,
+   "vanilla|linear|corrupt": 1.2126508951187134,
+   "vanilla|oracle|clean": 0.9976462721824646,
+   "vanilla|oracle|corrupt": 0.9952870011329651,
+   "ctl5k|zero|clean": 1.3769515752792358,
+   "ctl5k|zero|corrupt": 1.367253065109253,
+   "ctl5k|linear|clean": 1.0650603771209717,
+   "ctl5k|linear|corrupt": 1.0728413462638855,
+   "ctl5k|oracle|clean": 1.0340306162834167,
+   "ctl5k|oracle|corrupt": 1.035719633102417,
+   "cpt|zero|clean": 1.0525239706039429,
+   "cpt|zero|corrupt": 1.0529134273529053,
+   "cpt|linear|clean": 1.0428453087806702,
+   "cpt|linear|corrupt": 1.0395586490631104,
+   "cpt|oracle|clean": 1.0382513999938965,
+   "cpt|oracle|corrupt": 1.0428815484046936
+  },
+  "ETTm1": {
+   "vanilla|zero|clean": 2.056024968624115,
+   "vanilla|zero|corrupt": 2.4433789253234863,
+   "vanilla|linear|clean": 1.0875009894371033,
+   "vanilla|linear|corrupt": 1.1417319774627686,
+   "vanilla|oracle|clean": 0.9907557666301727,
+   "vanilla|oracle|corrupt": 1.012405812740326,
+   "ctl5k|zero|clean": 1.8263176083564758,
+   "ctl5k|zero|corrupt": 1.8358062505722046,
+   "ctl5k|linear|clean": 1.0986007452011108,
+   "ctl5k|linear|corrupt": 1.106761872768402,
+   "ctl5k|oracle|clean": 1.0724261403083801,
+   "ctl5k|oracle|corrupt": 1.066190481185913,
+   "cpt|zero|clean": 1.0902516841888428,
+   "cpt|zero|corrupt": 1.0772838592529297,
+   "cpt|linear|clean": 1.0309741497039795,
+   "cpt|linear|corrupt": 1.0326170921325684,
+   "cpt|oracle|clean": 1.0127731561660767,
+   "cpt|oracle|corrupt": 1.01962411403656
+  }
+ }
+}

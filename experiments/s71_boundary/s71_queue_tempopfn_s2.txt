@@ -1,0 +1,3 @@
+# S71 queue phase 8: tempopfn cpt replicate seed (DESIGN: two seeds if capacity
+# allows). Queued after the pending timesfm s2 eval; takes the next card that frees.
+train_tempopfn_cpt_s2 | @PY@ run_s71_tempopfn.py --arm cpt --seed 20260904 --bs 128 --device cuda:0 && @PY@ eval_s71.py --models tempopfn --arms cpt@20260904 --parts probe,sweep,clean,leaderboard --device cuda:0

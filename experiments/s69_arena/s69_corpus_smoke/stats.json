@@ -1,0 +1,23 @@
+{
+ "n_train": 4000,
+ "n_eval": 64,
+ "T": 1024,
+ "L": 512,
+ "H": 64,
+ "train_seed": 6900001,
+ "eval_seed": 6900002,
+ "minutes": 0.0044884840647379555,
+ "code_hash": "1ac4b1350594cc60",
+ "train_var_x": 0.9981972125249832,
+ "train_var_c": 1.0008069251458322,
+ "train_lag1_mean": 0.8237519311974512,
+ "train_lag1_vs_phi_mae": 0.003557200424863294,
+ "train_corr_xc_mean": 0.7043969789918962,
+ "train_corr_vs_rho_mae": 0.0034353574338850112,
+ "eval_var_x": 0.9861708700244379,
+ "eval_var_c": 0.9794189689389353,
+ "eval_lag1_mean": 0.8325301641919542,
+ "eval_lag1_vs_phi_mae": 0.004293776085145362,
+ "eval_corr_xc_mean": 0.7117787456210884,
+ "eval_corr_vs_rho_mae": 0.005861177474614676
+}

@@ -1,0 +1,7 @@
+{
+ "alpha": 0.5,
+ "recipe": "theta = (1-a)*stock + a*CPT",
+ "n_tensors": 85,
+ "max_abs_weight_delta_vs_stock": 0.041287243366241455,
+ "out": "s61_ckpt/arm_W50_s20260903.pt"
+}

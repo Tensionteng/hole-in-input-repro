@@ -1,0 +1,308 @@
+{
+ "meta": {
+  "L": 512,
+  "H": 64,
+  "alpha": 0.9,
+  "strata": [
+   [
+    0.0,
+    0.01
+   ],
+   [
+    0.01,
+    0.05
+   ],
+   [
+    0.05,
+    0.15
+   ],
+   [
+    0.15,
+    0.3
+   ],
+   [
+    0.3,
+    1.01
+   ]
+  ],
+  "datasets": [
+   "electricity/H",
+   "kdd_cup_2018_with_missing/H",
+   "restaurant",
+   "bitbrains_rnd/5T",
+   "bitbrains_fast_storage/5T",
+   "hierarchical_sales/D",
+   "car_parts_with_missing",
+   "temperature_rain_with_missing",
+   "jena_weather/H"
+  ],
+  "min_group": 30,
+  "detector": "S16 gbdt, fitted on ETTh1/ETTm1/weather, frozen",
+  "note": "real GIFT-Eval NaN only; no synthetic mask anywhere"
+ },
+ "detected": {
+  "clean": 2184,
+  "mcar": 796,
+  "block": 82,
+  "mnar_high": 559,
+  "mnar_extreme": 614,
+  "intermittent": 421
+ },
+ "joint_groups": {
+  "clean|0.0-0.01": 1126,
+  "mcar|0.0-0.01": 124,
+  "mcar|0.01-0.05": 224,
+  "mcar|0.05-0.15": 31,
+  "block|0.01-0.05": 4,
+  "block|0.05-0.15": 11,
+  "block|0.15-0.3": 6,
+  "block|0.3-1.01": 27,
+  "mnar_high|0.0-0.01": 83,
+  "mnar_high|0.01-0.05": 97,
+  "mnar_high|0.05-0.15": 40,
+  "mnar_high|0.15-0.3": 19,
+  "mnar_high|0.3-1.01": 33,
+  "mnar_extreme|0.0-0.01": 69,
+  "mnar_extreme|0.01-0.05": 163,
+  "mnar_extreme|0.05-0.15": 50,
+  "mnar_extreme|0.15-0.3": 33,
+  "mnar_extreme|0.3-1.01": 20,
+  "intermittent|0.0-0.01": 212
+ },
+ "strata": {
+  "0.0-0.01": {
+   "n": 1569,
+   "mean_rate": 0.0009037404397705545,
+   "native": {
+    "coverage": 0.8215636065376998,
+    "width": 625.0961148294961
+   },
+   "naive": {
+    "coverage": 0.8983935823314062,
+    "width": 628.5265402415954
+   },
+   "mondrian": {
+    "coverage": 0.902084541980915,
+    "width": 632.4892548344272
+   },
+   "mondrian_rate": {
+    "coverage": 0.9036649528877508,
+    "width": 632.9083383571254
+   }
+  },
+  "0.01-0.05": {
+   "n": 459,
+   "mean_rate": 0.021126940359477125,
+   "native": {
+    "coverage": 0.7531525306615996,
+    "width": 25.318618147324713
+   },
+   "naive": {
+    "coverage": 0.9126273967870099,
+    "width": 28.750042209758796
+   },
+   "mondrian": {
+    "coverage": 0.8993954050785974,
+    "width": 27.938623110437614
+   },
+   "mondrian_rate": {
+    "coverage": 0.8919675246156503,
+    "width": 27.55359873223503
+   }
+  },
+  "0.05-0.15": {
+   "n": 125,
+   "mean_rate": 0.078875,
+   "native": {
+    "coverage": 0.7731651064984398,
+    "width": 26.750535309383224
+   },
+   "naive": {
+    "coverage": 0.9025912359245692,
+    "width": 30.17856713131566
+   },
+   "mondrian": {
+    "coverage": 0.8966218966218966,
+    "width": 30.100078293623092
+   },
+   "mondrian_rate": {
+    "coverage": 0.9211775878442545,
+    "width": 36.19631220633399
+   }
+  },
+  "0.15-0.3": {
+   "n": 48,
+   "mean_rate": 0.2208251953125,
+   "native": {
+    "coverage": 0.8153787590407309,
+    "width": 56.010869955581484
+   },
+   "naive": {
+    "coverage": 0.8766653977921584,
+    "width": 59.43738998525501
+   },
+   "mondrian": {
+    "coverage": 0.8797106966121051,
+    "width": 60.85450681455301
+   },
+   "mondrian_rate": {
+    "coverage": 0.9074990483441188,
+    "width": 72.73654584114175
+   }
+  },
+  "0.3-1.01": {
+   "n": 83,
+   "mean_rate": 0.5103303840361446,
+   "native": {
+    "coverage": 0.7328543435662965,
+    "width": 59.7253322127736
+   },
+   "naive": {
+    "coverage": 0.8290877422164162,
+    "width": 63.17622668291629
+   },
+   "mondrian": {
+    "coverage": 0.8401915959068147,
+    "width": 66.07798647627082
+   },
+   "mondrian_rate": {
+    "coverage": 0.85543217940344,
+    "width": 74.99931166792105
+   }
+  }
+ },
+ "by_detected": {
+  "clean": {
+   "n": 1058,
+   "native": {
+    "coverage": 0.8088289756314347,
+    "width": 778.6055691383618
+   },
+   "naive": {
+    "coverage": 0.8774905562550922,
+    "width": 782.03611429682
+   },
+   "mondrian": {
+    "coverage": 0.8993704170061477,
+    "width": 788.8226310343649
+   },
+   "mondrian_rate": {
+    "coverage": 0.8993704170061477,
+    "width": 788.8226310343649
+   }
+  },
+  "mcar": {
+   "n": 417,
+   "native": {
+    "coverage": 0.7433169254070428,
+    "width": 84.02256284063617
+   },
+   "naive": {
+    "coverage": 0.9098826202196137,
+    "width": 87.45437079770049
+   },
+   "mondrian": {
+    "coverage": 0.8836804240817872,
+    "width": 85.46734861802389
+   },
+   "mondrian_rate": {
+    "coverage": 0.8891329042029534,
+    "width": 86.64322669168597
+   }
+  },
+  "block": {
+   "n": 34,
+   "native": {
+    "coverage": 0.6993339676498572,
+    "width": 35.69270752665262
+   },
+   "naive": {
+    "coverage": 0.8320647002854424,
+    "width": 39.1398335154373
+   },
+   "mondrian": {
+    "coverage": 0.8677450047573739,
+    "width": 47.24810122429871
+   },
+   "mondrian_rate": {
+    "coverage": 0.8677450047573739,
+    "width": 47.24810122429871
+   }
+  },
+  "mnar_high": {
+   "n": 287,
+   "native": {
+    "coverage": 0.8007013106461256,
+    "width": 405.95899853812404
+   },
+   "naive": {
+    "coverage": 0.8856058864106692,
+    "width": 409.3887494316931
+   },
+   "mondrian": {
+    "coverage": 0.8946309496435962,
+    "width": 410.9073713011041
+   },
+   "mondrian_rate": {
+    "coverage": 0.9021039319383767,
+    "width": 415.547851285638
+   }
+  },
+  "mnar_extreme": {
+   "n": 279,
+   "native": {
+    "coverage": 0.7964686232402768,
+    "width": 34.758369638672775
+   },
+   "naive": {
+    "coverage": 0.9241231209735147,
+    "width": 38.19123780210015
+   },
+   "mondrian": {
+    "coverage": 0.9161298019565736,
+    "width": 37.34150661536244
+   },
+   "mondrian_rate": {
+    "coverage": 0.9157122405153901,
+    "width": 39.49476950211249
+   }
+  },
+  "intermittent": {
+   "n": 209,
+   "native": {
+    "coverage": 0.9120228005700143,
+    "width": 100.97207234014368
+   },
+   "naive": {
+    "coverage": 0.9813245331133278,
+    "width": 104.40145524592012
+   },
+   "mondrian": {
+    "coverage": 0.9151728793219831,
+    "width": 100.97317372939649
+   },
+   "mondrian_rate": {
+    "coverage": 0.9151728793219831,
+    "width": 100.97317372939649
+   }
+  }
+ },
+ "overall": {
+  "native": {
+   "coverage": 0.8023273639467633,
+   "width": 444.88079986224227
+  },
+  "naive": {
+   "coverage": 0.8988641906487352,
+   "width": 448.31188737262585
+  },
+  "mondrian": {
+   "coverage": 0.8988711588042645,
+   "width": 451.0235723443542
+  },
+  "mondrian_rate": {
+   "coverage": 0.9007316563305693,
+   "width": 452.0540094481787
+  }
+ }
+}

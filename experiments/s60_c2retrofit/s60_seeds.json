@@ -1,0 +1,161 @@
+{
+ "meta": {
+  "experiment": "s60_c2retrofit: Chronos-2 120M, 5000-step mechdiv CPT from stock + WiSE-FT 0.5",
+  "seeds": [
+   20260901,
+   20260902,
+   20260903
+  ],
+  "seed_role": "CPT data sampler + augmentation draws; init is always the STOCK checkpoint",
+  "rho": "permutation-probe median rho over 9 cells, declared view",
+  "closure_at_1": "(e_stock - e_arm)/(e_stock - 1) at alpha=1, declared, median over cells with stock excess > 0.02 (analyze_s60.py formula)",
+  "floor_at_0": "cells where arm <= stock at alpha=0 (declared)",
+  "clean": "median over DS9 of arm/stock clean MSE median",
+  "leaderboard_median": "median over 36 cells (9 ds x 4 mechs, rate 0.7) of per-cell median relMSE",
+  "attack": "bad-fill attack kept single-seed (20260901, s60_attack.json) per task scope"
+ },
+ "seeds": {
+  "20260901": {
+   "rho": {
+    "CPT": 0.8149366974830627,
+    "W50": 0.8546336889266968
+   },
+   "closure_at_1": {
+    "CPT": 0.7950198587599488,
+    "W50": 0.53856690372909
+   },
+   "closure_at_1_n_cells": {
+    "CPT": 70,
+    "W50": 70
+   },
+   "floor_at_0": {
+    "CPT": {
+     "count": 66,
+     "total": 72
+    },
+    "W50": {
+     "count": 59,
+     "total": 72
+    }
+   },
+   "clean": {
+    "CPT": 1.0386512605317209,
+    "W50": 0.9934209452619475
+   },
+   "leaderboard_median": {
+    "W50|zero": 1.8115429878234863,
+    "W50|linear": 1.3435046076774597
+   }
+  },
+  "20260902": {
+   "rho": {
+    "CPT": 0.8008295893669128,
+    "W50": 0.8831686973571777
+   },
+   "closure_at_1": {
+    "CPT": 0.8161807531575211,
+    "W50": 0.5461373733908347
+   },
+   "closure_at_1_n_cells": {
+    "CPT": 70,
+    "W50": 70
+   },
+   "floor_at_0": {
+    "CPT": {
+     "count": 65,
+     "total": 72
+    },
+    "W50": {
+     "count": 60,
+     "total": 72
+    }
+   },
+   "clean": {
+    "CPT": 1.056909679662005,
+    "W50": 1.010220870899309
+   },
+   "leaderboard_median": {
+    "W50|zero": 1.8681517243385315,
+    "W50|linear": 1.3618249297142029
+   }
+  },
+  "20260903": {
+   "rho": {
+    "CPT": 0.8589428663253784,
+    "W50": 0.900964081287384
+   },
+   "closure_at_1": {
+    "CPT": 0.8120844279424161,
+    "W50": 0.5789954688403676
+   },
+   "closure_at_1_n_cells": {
+    "CPT": 70,
+    "W50": 70
+   },
+   "floor_at_0": {
+    "CPT": {
+     "count": 67,
+     "total": 72
+    },
+    "W50": {
+     "count": 61,
+     "total": 72
+    }
+   },
+   "clean": {
+    "CPT": 1.0339738824210014,
+    "W50": 1.0179672808507232
+   },
+   "leaderboard_median": {
+    "W50|zero": 1.8215019702911377,
+    "W50|linear": 1.3502976298332214
+   }
+  }
+ },
+ "across_seeds": {
+  "closure_at_1": {
+   "CPT": {
+    "mean": 0.8077616799532953,
+    "sd": 0.011223211463720493,
+    "n": 3,
+    "values": [
+     0.7950198587599488,
+     0.8161807531575211,
+     0.8120844279424161
+    ]
+   },
+   "W50": {
+    "mean": 0.5545665819867641,
+    "sd": 0.02149199589159811,
+    "n": 3,
+    "values": [
+     0.53856690372909,
+     0.5461373733908347,
+     0.5789954688403676
+    ]
+   }
+  },
+  "clean_ratio_median": {
+   "CPT": {
+    "mean": 1.043178274204909,
+    "sd": 0.012119533339532173,
+    "n": 3,
+    "values": [
+     1.0386512605317209,
+     1.056909679662005,
+     1.0339738824210014
+    ]
+   },
+   "W50": {
+    "mean": 1.0072030323373264,
+    "sd": 0.012548352875929203,
+    "n": 3,
+    "values": [
+     0.9934209452619475,
+     1.010220870899309,
+     1.0179672808507232
+    ]
+   }
+  }
+ }
+}

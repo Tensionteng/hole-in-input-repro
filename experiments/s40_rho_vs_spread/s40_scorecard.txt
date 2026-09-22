@@ -1,0 +1,16 @@
+checkpoint               params  rho pl  rho dec    gap   all ds   >3% NaN   kdd 12%
+moirai-moe-1.0-R-base    935.0M   0.987    0.973  0.015     2.9%      3.4%      5.8%
+moirai-moe-1.0-R-small   117.0M   0.973    0.971  0.002     2.8%      4.7%      8.8%
+moirai-1.1-R-large       311.0M   0.968    0.938  0.030     2.5%     12.8%     12.8%
+moirai-1.1-R-small        14.0M   0.976    0.966  0.010     2.4%      4.6%      9.8%
+chronos-t5-base          200.0M   0.910    0.000  0.910     2.1%      5.1%     11.1%
+chronos-bolt-mini         21.0M   0.962    0.000  0.962     1.7%      8.7%     24.0%
+chronos-bolt-small        48.0M   0.969    0.000  0.969     0.7%      8.7%     23.7%
+chronos-bolt-tiny          8.7M   0.867    0.000  0.867     0.4%      7.0%     18.4%
+chronos-bolt-base        205.0M   0.907    0.000  0.907     0.4%     11.7%     32.3%
+rho plain vs spread over all datasets (n=9): Spearman +0.800 (p=0.010), Pearson +0.696 (p=0.037)
+rho plain - rho declared vs spread over all datasets (n=9): Spearman -0.667 (p=0.050), Pearson -0.814 (p=0.008)
+rho plain vs spread on >3% NaN datasets (n=9): Spearman -0.617 (p=0.077), Pearson -0.191 (p=0.623)
+rho plain - rho declared vs spread on >3% NaN datasets (n=9): Spearman +0.533 (p=0.139), Pearson +0.316 (p=0.408)
+rho plain - rho declared vs spread on the most missing-valued dataset (n=9): Spearman +0.750 (p=0.020), Pearson +0.763 (p=0.017)
+rho plain vs spread on the most missing-valued dataset (n=9): Spearman -0.717 (p=0.030), Pearson -0.419 (p=0.262)

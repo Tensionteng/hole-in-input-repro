@@ -1,0 +1,1 @@
+{"dataset": "weather", "model": "mb", "layer": 6, "ev_pca": 0.9212062358856201, "mcar:0.7": {"r2_l6_fullmiss": 0.806192784279231, "n_train": 1410, "n_test": 1410, "y_var_test": 0.7853778289062826}, "block:0.7": {"r2_l6_fullmiss": 0.6278133296609077, "n_train": 116070, "n_test": 116070, "y_var_test": 0.8052382683118269}}

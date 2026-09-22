@@ -1,0 +1,106 @@
+{
+ "meta": {
+  "model": "models_local/chronos-2",
+  "dtype": "float32",
+  "tf32": false,
+  "H": 64,
+  "n_win": 56,
+  "requirement": "max|diff| == 0 on every native cell"
+ },
+ "clean": {
+  "max_abs_diff_quantiles": 0.0,
+  "abs_diff_loss": 0.0,
+  "pass": true
+ },
+ "clean_explicit_mask": {
+  "max_abs_diff_quantiles": 0.0,
+  "abs_diff_loss": 0.0,
+  "pass": true
+ },
+ "mcar|0.3|explicit": {
+  "max_abs_diff_quantiles": 0.0,
+  "abs_diff_loss": 0.0,
+  "pass": true
+ },
+ "mcar|0.3|nan": {
+  "max_abs_diff_quantiles": 0.0,
+  "abs_diff_loss": 0.0,
+  "pass": true
+ },
+ "mcar|0.7|explicit": {
+  "max_abs_diff_quantiles": 0.0,
+  "abs_diff_loss": 0.0,
+  "pass": true
+ },
+ "mcar|0.7|nan": {
+  "max_abs_diff_quantiles": 0.0,
+  "abs_diff_loss": 0.0,
+  "pass": true
+ },
+ "block|0.3|explicit": {
+  "max_abs_diff_quantiles": 0.0,
+  "abs_diff_loss": 0.0,
+  "pass": true
+ },
+ "block|0.3|nan": {
+  "max_abs_diff_quantiles": 0.0,
+  "abs_diff_loss": 0.0,
+  "pass": true
+ },
+ "block|0.7|explicit": {
+  "max_abs_diff_quantiles": 0.0,
+  "abs_diff_loss": 0.0,
+  "pass": true
+ },
+ "block|0.7|nan": {
+  "max_abs_diff_quantiles": 0.0,
+  "abs_diff_loss": 0.0,
+  "pass": true
+ },
+ "mnar_high|0.3|explicit": {
+  "max_abs_diff_quantiles": 0.0,
+  "abs_diff_loss": 0.0,
+  "pass": true
+ },
+ "mnar_high|0.3|nan": {
+  "max_abs_diff_quantiles": 0.0,
+  "abs_diff_loss": 0.0,
+  "pass": true
+ },
+ "mnar_high|0.7|explicit": {
+  "max_abs_diff_quantiles": 0.0,
+  "abs_diff_loss": 0.0,
+  "pass": true
+ },
+ "mnar_high|0.7|nan": {
+  "max_abs_diff_quantiles": 0.0,
+  "abs_diff_loss": 0.0,
+  "pass": true
+ },
+ "mnar_extreme|0.3|explicit": {
+  "max_abs_diff_quantiles": 0.0,
+  "abs_diff_loss": 0.0,
+  "pass": true
+ },
+ "mnar_extreme|0.3|nan": {
+  "max_abs_diff_quantiles": 0.0,
+  "abs_diff_loss": 0.0,
+  "pass": true
+ },
+ "mnar_extreme|0.7|explicit": {
+  "max_abs_diff_quantiles": 0.0,
+  "abs_diff_loss": 0.0,
+  "pass": true
+ },
+ "mnar_extreme|0.7|nan": {
+  "max_abs_diff_quantiles": 0.0,
+  "abs_diff_loss": 0.0,
+  "pass": true
+ },
+ "sanity_dual_differs_from_native": {
+  "max_abs_diff": 28.900619506835938,
+  "pass": true
+ },
+ "worst_abs_diff": 0.0,
+ "pass": true
+}

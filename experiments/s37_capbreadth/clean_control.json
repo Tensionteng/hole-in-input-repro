@@ -1,0 +1,83 @@
+{
+ "ETTh1": {
+  "n": 2100,
+  "clean_relMSE": {
+   "native": 0.9830647706985474,
+   "dual": 0.9734635353088379,
+   "dual_obsnorm": 0.9841943383216858
+  },
+  "insample": true
+ },
+ "ETTh2": {
+  "n": 2100,
+  "clean_relMSE": {
+   "native": 0.9953033924102783,
+   "dual": 0.986024022102356,
+   "dual_obsnorm": 0.9869482517242432
+  },
+  "insample": false
+ },
+ "ETTm1": {
+  "n": 2100,
+  "clean_relMSE": {
+   "native": 0.9981322288513184,
+   "dual": 0.9921793937683105,
+   "dual_obsnorm": 1.0151103734970093
+  },
+  "insample": true
+ },
+ "ETTm2": {
+  "n": 2100,
+  "clean_relMSE": {
+   "native": 0.9845002889633179,
+   "dual": 0.9900035858154297,
+   "dual_obsnorm": 0.9918273687362671
+  },
+  "insample": false
+ },
+ "weather": {
+  "n": 6166,
+  "clean_relMSE": {
+   "native": 0.9769964218139648,
+   "dual": 0.970662534236908,
+   "dual_obsnorm": 0.9748396873474121
+  },
+  "insample": true
+ },
+ "electricity": {
+  "n": 6900,
+  "clean_relMSE": {
+   "native": 1.0599365234375,
+   "dual": 1.0889930725097656,
+   "dual_obsnorm": 1.1126618385314941
+  },
+  "insample": false
+ },
+ "traffic": {
+  "n": 7200,
+  "clean_relMSE": {
+   "native": 1.0523136854171753,
+   "dual": 1.0549976825714111,
+   "dual_obsnorm": 1.087889552116394
+  },
+  "insample": false
+ },
+ "exchange": {
+  "n": 2400,
+  "clean_relMSE": {
+   "native": 1.0467829704284668,
+   "dual": 0.9751073122024536,
+   "dual_obsnorm": 1.0214855670928955
+  },
+  "insample": false
+ },
+ "illness": {
+  "n": 917,
+  "clean_relMSE": {
+   "native": 1.088460087776184,
+   "dual": 1.0067265033721924,
+   "dual_obsnorm": 1.0519800186157227
+  },
+  "insample": false
+ }
+}

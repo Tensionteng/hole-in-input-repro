@@ -1,0 +1,2 @@
+# S71 queue phase 6: cpt replicate seeds (DESIGN: two seeds for cpt if capacity allows)
+train_timesfm_cpt_s2 | @PY@ run_s71_timesfm.py --arm cpt --seed 20260904 --bs 256 --device cuda:0 && @PY@ eval_s71.py --models timesfm --arms cpt@20260904 --parts probe,sweep,clean,leaderboard --device cuda:0

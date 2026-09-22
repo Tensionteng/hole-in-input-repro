@@ -1,0 +1,18 @@
+{
+ "c2": {
+  "alpha": 0.5,
+  "recipe": "theta = (1-a)*stock + a*control(nomiss)",
+  "n_tensors": 170,
+  "max_abs_weight_delta_vs_stock": 0.03055673837661743,
+  "control": "s65_ckpt/c2_nomiss.pt",
+  "out": "s65_ckpt/c2_nomiss_w50.pt"
+ },
+ "m2": {
+  "alpha": 0.5,
+  "recipe": "theta = (1-a)*stock + a*control(nomiss)",
+  "n_tensors": 85,
+  "max_abs_weight_delta_vs_stock": 0.030183061957359314,
+  "control": "s65_ckpt/m2_nomiss.pt",
+  "out": "s65_ckpt/m2_nomiss_w50.pt"
+ }
+}

@@ -1,0 +1,233 @@
+{
+ "pooled_median": {
+  "vanilla|zero|clean": 8.122175455093384,
+  "vanilla|zero|corrupt": 8.510657787322998,
+  "vanilla|linear|clean": 2.1877613067626953,
+  "vanilla|linear|corrupt": 2.1193662881851196,
+  "vanilla|oracle|clean": 0.9859035611152649,
+  "vanilla|oracle|corrupt": 0.9927972555160522,
+  "ctl5k|zero|clean": 5.957124948501587,
+  "ctl5k|zero|corrupt": 5.97948694229126,
+  "ctl5k|linear|clean": 1.7120444774627686,
+  "ctl5k|linear|corrupt": 1.7653284668922424,
+  "ctl5k|oracle|clean": 1.3014559745788574,
+  "ctl5k|oracle|corrupt": 1.358856201171875,
+  "cpt|zero|clean": 1.8719285130500793,
+  "cpt|zero|corrupt": 1.752849817276001,
+  "cpt|linear|clean": 1.4830501675605774,
+  "cpt|linear|corrupt": 1.562265932559967,
+  "cpt|oracle|clean": 1.1553528308868408,
+  "cpt|oracle|corrupt": 1.1779532432556152
+ },
+ "P1b": {
+  "effect_cpt_zero": -0.11907869577407837,
+  "pass": false
+ },
+ "P2b": {
+  "effect_cpt_zero": -0.11907869577407837,
+  "effect_cpt_oracle": 0.022600412368774414,
+  "ratio": -5.268872701570791,
+  "pass": false
+ },
+ "P3b": {
+  "vanilla_zero_clean": 8.122175455093384,
+  "cpt_zero_clean": 1.8719285130500793,
+  "vanilla_zero_corrupt": 8.510657787322998,
+  "cpt_zero_corrupt": 1.752849817276001,
+  "ratio_clean": 4.338934632636846,
+  "ratio_corrupt": 4.855326282629793,
+  "vanilla_gap_zero": 0.38848233222961426,
+  "pass": true
+ },
+ "q_c_effects": {
+  "vanilla": {
+   "zero": 0.38848233222961426,
+   "linear": -0.06839501857757568,
+   "oracle": 0.0068936944007873535
+  },
+  "ctl5k": {
+   "zero": 0.02236199378967285,
+   "linear": 0.05328398942947388,
+   "oracle": 0.05740022659301758
+  },
+  "cpt": {
+   "zero": -0.11907869577407837,
+   "linear": 0.07921576499938965,
+   "oracle": 0.022600412368774414
+  }
+ },
+ "per_mechrate_median": {
+  "mcar|0.9": {
+   "vanilla|zero|clean": 12.131671905517578,
+   "vanilla|zero|corrupt": 12.073785305023193,
+   "vanilla|linear|clean": 1.7093755006790161,
+   "vanilla|linear|corrupt": 1.9166499376296997,
+   "vanilla|oracle|clean": 0.9859035611152649,
+   "vanilla|oracle|corrupt": 0.9986502528190613,
+   "ctl5k|zero|clean": 12.134186744689941,
+   "ctl5k|zero|corrupt": 12.266797065734863,
+   "ctl5k|linear|clean": 1.6162755489349365,
+   "ctl5k|linear|corrupt": 1.6505497097969055,
+   "ctl5k|oracle|clean": 1.2842366695404053,
+   "ctl5k|oracle|corrupt": 1.3472919464111328,
+   "cpt|zero|clean": 1.8719285130500793,
+   "cpt|zero|corrupt": 1.752849817276001,
+   "cpt|linear|clean": 1.469012200832367,
+   "cpt|linear|corrupt": 1.4933311939239502,
+   "cpt|oracle|clean": 1.0909711122512817,
+   "cpt|oracle|corrupt": 1.1060224175453186
+  },
+  "block|0.9": {
+   "vanilla|zero|clean": 3.7828872203826904,
+   "vanilla|zero|corrupt": 5.120184659957886,
+   "vanilla|linear|clean": 1.5249589085578918,
+   "vanilla|linear|corrupt": 1.5302740931510925,
+   "vanilla|oracle|clean": 0.9859035611152649,
+   "vanilla|oracle|corrupt": 0.9922579526901245,
+   "ctl5k|zero|clean": 1.872284471988678,
+   "ctl5k|zero|corrupt": 1.879890501499176,
+   "ctl5k|linear|clean": 1.2014063000679016,
+   "ctl5k|linear|corrupt": 1.2196882963180542,
+   "ctl5k|oracle|clean": 1.0737757086753845,
+   "ctl5k|oracle|corrupt": 1.0851943492889404,
+   "cpt|zero|clean": 1.159125804901123,
+   "cpt|zero|corrupt": 1.1750024557113647,
+   "cpt|linear|clean": 1.134813129901886,
+   "cpt|linear|corrupt": 1.1283369064331055,
+   "cpt|oracle|clean": 1.0889990329742432,
+   "cpt|oracle|corrupt": 1.0957534313201904
+  },
+  "block|1.0": {
+   "vanilla|zero|clean": 12.142130851745605,
+   "vanilla|zero|corrupt": 12.142130851745605,
+   "vanilla|linear|clean": 12.142130851745605,
+   "vanilla|linear|corrupt": 12.142130851745605,
+   "vanilla|oracle|clean": 0.9859035611152649,
+   "vanilla|oracle|corrupt": 0.9902567863464355,
+   "ctl5k|zero|clean": 10.622130870819092,
+   "ctl5k|zero|corrupt": 10.622130870819092,
+   "ctl5k|linear|clean": 10.622130870819092,
+   "ctl5k|linear|corrupt": 10.622130870819092,
+   "ctl5k|oracle|clean": 2.7254815101623535,
+   "ctl5k|oracle|corrupt": 2.7254815101623535,
+   "cpt|zero|clean": 8.350194454193115,
+   "cpt|zero|corrupt": 8.350194454193115,
+   "cpt|linear|clean": 8.350194454193115,
+   "cpt|linear|corrupt": 8.350194454193115,
+   "cpt|oracle|clean": 3425313024.0,
+   "cpt|oracle|corrupt": 3425313024.0
+  }
+ },
+ "per_dataset_median": {
+  "weather": {
+   "vanilla|zero|clean": 24.31170082092285,
+   "vanilla|zero|corrupt": 32.99004936218262,
+   "vanilla|linear|clean": 1.3339022994041443,
+   "vanilla|linear|corrupt": 1.4457722902297974,
+   "vanilla|oracle|clean": 0.9540173411369324,
+   "vanilla|oracle|corrupt": 0.9878425896167755,
+   "ctl5k|zero|clean": 7.224768400192261,
+   "ctl5k|zero|corrupt": 7.229340553283691,
+   "ctl5k|linear|clean": 1.3662498593330383,
+   "ctl5k|linear|corrupt": 1.341936707496643,
+   "ctl5k|oracle|clean": 1.2767786979675293,
+   "ctl5k|oracle|corrupt": 1.3258106708526611,
+   "cpt|zero|clean": 1.8767869472503662,
+   "cpt|zero|corrupt": 1.9219348430633545,
+   "cpt|linear|clean": 1.1873019337654114,
+   "cpt|linear|corrupt": 1.2313533425331116,
+   "cpt|oracle|clean": 1.0772634148597717,
+   "cpt|oracle|corrupt": 1.0980592966079712
+  },
+  "ETTh1": {
+   "vanilla|zero|clean": 5.077092885971069,
+   "vanilla|zero|corrupt": 5.073448896408081,
+   "vanilla|linear|clean": 2.405445098876953,
+   "vanilla|linear|corrupt": 2.5718605518341064,
+   "vanilla|oracle|clean": 0.9976462721824646,
+   "vanilla|oracle|corrupt": 0.9901310205459595,
+   "ctl5k|zero|clean": 4.9818806648254395,
+   "ctl5k|zero|corrupt": 5.021781921386719,
+   "ctl5k|linear|clean": 2.100126028060913,
+   "ctl5k|linear|corrupt": 2.2235406637191772,
+   "ctl5k|oracle|clean": 1.1925139427185059,
+   "ctl5k|oracle|corrupt": 1.2044066190719604,
+   "cpt|zero|clean": 1.8719285130500793,
+   "cpt|zero|corrupt": 1.8099331855773926,
+   "cpt|linear|clean": 1.784070372581482,
+   "cpt|linear|corrupt": 1.7671828269958496,
+   "cpt|oracle|clean": 1.457090437412262,
+   "cpt|oracle|corrupt": 1.2232922911643982
+  },
+  "ETTm1": {
+   "vanilla|zero|clean": 8.259610176086426,
+   "vanilla|zero|corrupt": 8.267516613006592,
+   "vanilla|linear|clean": 2.14116895198822,
+   "vanilla|linear|corrupt": 2.0964454412460327,
+   "vanilla|oracle|clean": 0.9907557666301727,
+   "vanilla|oracle|corrupt": 1.0157270431518555,
+   "ctl5k|zero|clean": 6.985243558883667,
+   "ctl5k|zero|corrupt": 6.985243558883667,
+   "ctl5k|linear|clean": 1.6443291902542114,
+   "ctl5k|linear|corrupt": 1.6847320199012756,
+   "ctl5k|oracle|clean": 1.4658591151237488,
+   "ctl5k|oracle|corrupt": 1.504809856414795,
+   "cpt|zero|clean": 1.795480191707611,
+   "cpt|zero|corrupt": 1.7056867480278015,
+   "cpt|linear|clean": 1.4830501675605774,
+   "cpt|linear|corrupt": 1.4933311939239502,
+   "cpt|oracle|clean": 1.2036338448524475,
+   "cpt|oracle|corrupt": 1.2077006101608276
+  }
+ },
+ "envelope": {
+  "s70_mcar|0.7": {
+   "zero|clean": 1.1540470123291016,
+   "zero|corrupt": 1.1756281852722168,
+   "linear|clean": 1.0419013500213623,
+   "linear|corrupt": 1.0744287967681885,
+   "oracle|clean": 1.0070395171642303,
+   "oracle|corrupt": 1.036775529384613
+  },
+  "s70_block|0.7": {
+   "zero|clean": 1.0883296728134155,
+   "zero|corrupt": 1.0842347741127014,
+   "linear|clean": 1.083312213420868,
+   "linear|corrupt": 1.08766770362854,
+   "oracle|clean": 1.0665225982666016,
+   "oracle|corrupt": 1.06623375415802
+  },
+  "s70b_pooled_cpt": {
+   "zero|clean": 1.8719285130500793,
+   "zero|corrupt": 1.752849817276001,
+   "linear|clean": 1.4830501675605774,
+   "linear|corrupt": 1.562265932559967,
+   "oracle|clean": 1.1553528308868408,
+   "oracle|corrupt": 1.1779532432556152
+  },
+  "s70b_mcar|0.9_cpt": {
+   "zero|clean": 1.8719285130500793,
+   "zero|corrupt": 1.752849817276001,
+   "linear|clean": 1.469012200832367,
+   "linear|corrupt": 1.4933311939239502,
+   "oracle|clean": 1.0909711122512817,
+   "oracle|corrupt": 1.1060224175453186
+  },
+  "s70b_block|0.9_cpt": {
+   "zero|clean": 1.159125804901123,
+   "zero|corrupt": 1.1750024557113647,
+   "linear|clean": 1.134813129901886,
+   "linear|corrupt": 1.1283369064331055,
+   "oracle|clean": 1.0889990329742432,
+   "oracle|corrupt": 1.0957534313201904
+  },
+  "s70b_block|1.0_cpt": {
+   "zero|clean": 8.350194454193115,
+   "zero|corrupt": 8.350194454193115,
+   "linear|clean": 8.350194454193115,
+   "linear|corrupt": 8.350194454193115,
+   "oracle|clean": 3425313024.0,
+   "oracle|corrupt": 3425313024.0
+  }
+ }
+}

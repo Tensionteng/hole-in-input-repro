@@ -1,0 +1,150 @@
+{
+ "gifteval": {
+  "electricity/H": {
+   "n_points": 12973680,
+   "nan_points": 2489562,
+   "nan_frac": 0.19189327931627725,
+   "n_series": 370,
+   "series_with_nan": 212,
+   "series_nan_frac": 0.572972972972973
+  },
+  "kdd_cup_2018_with_missing/H": {
+   "n_points": 2942364,
+   "nan_points": 503712,
+   "nan_frac": 0.17119295913082133,
+   "n_series": 270,
+   "series_with_nan": 270,
+   "series_nan_frac": 1.0
+  },
+  "restaurant": {
+   "n_points": 289303,
+   "nan_points": 39816,
+   "nan_frac": 0.13762733189769896,
+   "n_series": 807,
+   "series_with_nan": 797,
+   "series_nan_frac": 0.9876084262701363
+  },
+  "bitbrains_rnd/5T": {
+   "n_points": 8640000,
+   "nan_points": 1134562,
+   "nan_frac": 0.13131504629629628,
+   "n_series": 1000,
+   "series_with_nan": 1000,
+   "series_nan_frac": 1.0
+  },
+  "bitbrains_fast_storage/5T": {
+   "n_points": 21600000,
+   "nan_points": 975916,
+   "nan_frac": 0.045181296296296296,
+   "n_series": 2500,
+   "series_with_nan": 2358,
+   "series_nan_frac": 0.9432
+  },
+  "hierarchical_sales/D": {
+   "n_points": 215350,
+   "nan_points": 3186,
+   "nan_frac": 0.014794520547945205,
+   "n_series": 118,
+   "series_with_nan": 118,
+   "series_nan_frac": 1.0
+  },
+  "car_parts_with_missing": {
+   "n_points": 136374,
+   "nan_points": 6122,
+   "nan_frac": 0.04489125493129189,
+   "n_series": 2674,
+   "series_with_nan": 165,
+   "series_nan_frac": 0.06170531039640987
+  },
+  "temperature_rain_with_missing": {
+   "n_points": 23252200,
+   "nan_points": 598837,
+   "nan_frac": 0.0257539931705387,
+   "n_series": 32072,
+   "series_with_nan": 30935,
+   "series_nan_frac": 0.9645485158393614
+  },
+  "jena_weather/H": {
+   "n_points": 184464,
+   "nan_points": 21,
+   "nan_frac": 0.00011384335154826958,
+   "n_series": 21,
+   "series_with_nan": 21,
+   "series_nan_frac": 1.0
+  }
+ },
+ "benchmarks": {
+  "ETTh1": {
+   "zero_run_mean": 0.005166475315729048,
+   "zero_run_max": 0.011481056257175661,
+   "plateau_mean": 0.023980382669170776,
+   "plateau_max": 0.029967277111200414,
+   "straight_mean": 0.0,
+   "straight_max": 0.0
+  },
+  "ETTh2": {
+   "zero_run_mean": 0.08084303755945547,
+   "zero_run_max": 0.28536165327210106,
+   "plateau_mean": 0.11203693831858481,
+   "plateau_max": 0.3730983408921293,
+   "straight_mean": 0.0,
+   "straight_max": 0.0
+  },
+  "ETTm1": {
+   "zero_run_mean": 0.005566262096112842,
+   "zero_run_max": 0.011624569460390356,
+   "plateau_mean": 0.025711784448276074,
+   "plateau_max": 0.03183168529973163,
+   "straight_mean": 0.0,
+   "straight_max": 0.0
+  },
+  "ETTm2": {
+   "zero_run_mean": 0.08580654420206658,
+   "zero_run_max": 0.2908438576349024,
+   "plateau_mean": 0.1818317878106337,
+   "plateau_max": 0.6198711232939623,
+   "straight_mean": 0.0,
+   "straight_max": 0.0
+  },
+  "weather": {
+   "zero_run_mean": 0.15874431600482913,
+   "zero_run_max": 0.9550630028844694,
+   "plateau_mean": 0.15791143101134564,
+   "plateau_max": 0.9378688680140431,
+   "straight_mean": 0.00012471177581943745,
+   "straight_max": 0.001385382176325177
+  },
+  "electricity": {
+   "zero_run_mean": 0.007563124957096767,
+   "zero_run_max": 0.7570711678832117,
+   "plateau_mean": 0.00917627785285467,
+   "plateau_max": 0.7630308329848307,
+   "straight_mean": 2.1460905535163903e-06,
+   "straight_max": 0.0003043892075826858
+  },
+  "traffic": {
+   "zero_run_mean": 0.007015109772393282,
+   "zero_run_max": 0.13565891472868216,
+   "plateau_mean": 0.004662921058537901,
+   "plateau_max": 0.08704326511999087,
+   "straight_mean": 0.0,
+   "straight_max": 0.0
+  },
+  "exchange": {
+   "zero_run_mean": 0.0,
+   "zero_run_max": 0.0,
+   "plateau_mean": 0.014070119942006062,
+   "plateau_max": 0.1125609595360485,
+   "straight_mean": 0.0,
+   "straight_max": 0.0
+  },
+  "illness": {
+   "zero_run_mean": 0.0,
+   "zero_run_max": 0.0,
+   "plateau_mean": 0.0,
+   "plateau_max": 0.0,
+   "straight_mean": 0.0,
+   "straight_max": 0.0
+  }
+ }
+}

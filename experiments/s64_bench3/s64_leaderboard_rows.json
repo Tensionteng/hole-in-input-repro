@@ -1,0 +1,369 @@
+{
+ "meta": {
+  "aggregation": "per-dataset cell = median of 4 mech medians; row = median of 9 ds cells; worst zero = max ds cell",
+  "source_cells": "s64_leaderboard_cells.json"
+ },
+ "rows": {
+  "m2-stock": {
+   "per_dataset": {
+    "perfect": {
+     "ETTh1": 1.1329630017280579,
+     "ETTm1": 1.2794217467308044,
+     "weather": 1.0400501489639282,
+     "ETTh2": 1.1216260194778442,
+     "ETTm2": 1.3242853879928589,
+     "electricity": 1.3707971572875977,
+     "traffic": 1.839377224445343,
+     "exchange": 1.082294225692749,
+     "illness": 1.1780133247375488
+    },
+    "linear": {
+     "ETTh1": 1.6047043800354004,
+     "ETTm1": 1.902496874332428,
+     "weather": 1.2777472734451294,
+     "ETTh2": 1.4365339279174805,
+     "ETTm2": 1.5786500573158264,
+     "electricity": 5.183098554611206,
+     "traffic": 5.417219877243042,
+     "exchange": 1.1950172185897827,
+     "illness": 1.767095923423767
+    },
+    "zero": {
+     "ETTh1": 6.869724750518799,
+     "ETTm1": 10.790959358215332,
+     "weather": 5.4538254737854,
+     "ETTh2": 11.555560111999512,
+     "ETTm2": 12.574565649032593,
+     "electricity": 82.18342971801758,
+     "traffic": 22.254586219787598,
+     "exchange": 13.944525718688965,
+     "illness": 4.807688236236572
+    }
+   },
+   "perfect": 1.1780133247375488,
+   "linear": 1.6047043800354004,
+   "zero": 11.555560111999512,
+   "worst_zero_cell": {
+    "value": 82.18342971801758,
+    "dataset": "electricity"
+   }
+  },
+  "m2-w50": {
+   "per_dataset": {
+    "perfect": {
+     "ETTh1": 1.1668351888656616,
+     "ETTm1": 1.1399416327476501,
+     "weather": 1.0287850499153137,
+     "ETTh2": 1.1077774167060852,
+     "ETTm2": 1.114097237586975,
+     "electricity": 1.4272230863571167,
+     "traffic": 1.5475889444351196,
+     "exchange": 1.0153895914554596,
+     "illness": 1.0964335203170776
+    },
+    "linear": {
+     "ETTh1": 1.4905178546905518,
+     "ETTm1": 1.664940595626831,
+     "weather": 1.1421810388565063,
+     "ETTh2": 1.3384013772010803,
+     "ETTm2": 1.2921839952468872,
+     "electricity": 4.077064037322998,
+     "traffic": 4.53416633605957,
+     "exchange": 1.087575912475586,
+     "illness": 1.899725079536438
+    },
+    "zero": {
+     "ETTh1": 2.4455028772354126,
+     "ETTm1": 3.3511741161346436,
+     "weather": 1.856331467628479,
+     "ETTh2": 2.9241881370544434,
+     "ETTm2": 2.6364638209342957,
+     "electricity": 21.72288417816162,
+     "traffic": 10.569780349731445,
+     "exchange": 2.986442804336548,
+     "illness": 2.95733380317688
+    }
+   },
+   "perfect": 1.114097237586975,
+   "linear": 1.4905178546905518,
+   "zero": 2.95733380317688,
+   "worst_zero_cell": {
+    "value": 21.72288417816162,
+    "dataset": "electricity"
+   }
+  },
+  "c2-stock": {
+   "per_dataset": {
+    "perfect": {
+     "ETTh1": 1.5314173102378845,
+     "ETTm1": 1.7566710710525513,
+     "weather": 1.5370998978614807,
+     "ETTh2": 1.3701533675193787,
+     "ETTm2": 1.4049227237701416,
+     "electricity": 4.725009202957153,
+     "traffic": 3.972792387008667,
+     "exchange": 1.3999789953231812,
+     "illness": 2.2698734402656555
+    },
+    "linear": {
+     "ETTh1": 1.521249771118164,
+     "ETTm1": 1.7516480088233948,
+     "weather": 1.3804380297660828,
+     "ETTh2": 1.3564810752868652,
+     "ETTm2": 1.3778807520866394,
+     "electricity": 5.123745083808899,
+     "traffic": 4.1837546825408936,
+     "exchange": 1.4597777128219604,
+     "illness": 2.3366506099700928
+    },
+    "zero": {
+     "ETTh1": 1.6667729020118713,
+     "ETTm1": 1.8595774173736572,
+     "weather": 2.103804290294647,
+     "ETTh2": 1.680316150188446,
+     "ETTm2": 1.7332960963249207,
+     "electricity": 5.988167881965637,
+     "traffic": 4.3584465980529785,
+     "exchange": 5.018901824951172,
+     "illness": 2.5342498421669006
+    }
+   },
+   "perfect": 1.5370998978614807,
+   "linear": 1.521249771118164,
+   "zero": 2.103804290294647,
+   "worst_zero_cell": {
+    "value": 5.988167881965637,
+    "dataset": "electricity"
+   }
+  },
+  "c2-w50": {
+   "per_dataset": {
+    "perfect": {
+     "ETTh1": 1.3102480173110962,
+     "ETTm1": 1.5248366594314575,
+     "weather": 1.2290083169937134,
+     "ETTh2": 1.2510109543800354,
+     "ETTm2": 1.2919645309448242,
+     "electricity": 1.7025336027145386,
+     "traffic": 1.7355402708053589,
+     "exchange": 1.0911394357681274,
+     "illness": 0.9943865835666656
+    },
+    "linear": {
+     "ETTh1": 1.4425617456436157,
+     "ETTm1": 1.4811391830444336,
+     "weather": 1.2255820631980896,
+     "ETTh2": 1.342763066291809,
+     "ETTm2": 1.355588436126709,
+     "electricity": 3.495598316192627,
+     "traffic": 3.4210156202316284,
+     "exchange": 1.108672022819519,
+     "illness": 1.4569639563560486
+    },
+    "zero": {
+     "ETTh1": 1.6775583028793335,
+     "ETTm1": 1.565922498703003,
+     "weather": 1.6584223508834839,
+     "ETTh2": 1.5795924663543701,
+     "ETTm2": 1.5053510665893555,
+     "electricity": 8.885221242904663,
+     "traffic": 4.24570107460022,
+     "exchange": 2.702515959739685,
+     "illness": 1.610170304775238
+    }
+   },
+   "perfect": 1.2919645309448242,
+   "linear": 1.4425617456436157,
+   "zero": 1.6584223508834839,
+   "worst_zero_cell": {
+    "value": 8.885221242904663,
+    "dataset": "electricity"
+   }
+  }
+ },
+ "rows_flat36": {
+  "m2-stock": {
+   "perfect": 1.1826438903808594,
+   "linear": 1.6819460988044739,
+   "zero": 8.965950965881348,
+   "worst_zero_cell": 248.87384033203125
+  },
+  "m2-w50": {
+   "perfect": 1.1233604550361633,
+   "linear": 1.498797357082367,
+   "zero": 2.794870972633362,
+   "worst_zero_cell": 48.692108154296875
+  },
+  "c2-stock": {
+   "perfect": 1.6064505577087402,
+   "linear": 1.5745348930358887,
+   "zero": 2.0317113399505615,
+   "worst_zero_cell": 30.99886703491211
+  },
+  "c2-w50": {
+   "perfect": 1.2637713551521301,
+   "linear": 1.3435046076774597,
+   "zero": 1.8115429878234863,
+   "worst_zero_cell": 79.27104187011719
+  }
+ },
+ "gates": {
+  "G1_m2stock_vs_s57_moirai2": {
+   "max_rel_dev": 0.0032079734798454588,
+   "worst_cell": "exchange|block|zero",
+   "n_cells": 108,
+   "pass": true,
+   "note": "s57_moirai2.json was computed with TF32 ENABLED (eval_s57 imports eval_s45 -> train_s45 sets allow_tf32=True); the s64 strict-fp32 cells differ only at that numerical level"
+  },
+  "G1b_m2stock_tf32on_bitexact": {
+   "max_rel_dev": 0.0,
+   "n_cells": 108,
+   "pass": true,
+   "note": "same script with TF32 on (as s57 effectively ran) + batch=64 reproduces all 108 s57 cells bit-exactly"
+  },
+  "G2_m2stock_row_vs_paper": {
+   "expected": [
+    1.18,
+    1.6,
+    11.56,
+    82.2
+   ],
+   "got": [
+    1.1780133247375488,
+    1.6047043800354004,
+    11.555560111999512,
+    82.18342971801758
+   ],
+   "pass": true,
+   "note": "compared at the paper's own print precision (2 decimals for the row, 1 decimal for the worst cell)"
+  },
+  "G3_c2stock_vs_s60_artifacts": {
+   "max_rel_dev": 0.0,
+   "worst_cell": "weather|mnar_high|zero",
+   "n_cells": 108,
+   "pass": true,
+   "note": "s60 cells == s57-protocol cells; only the paper's C2 row aggregation differed (flat-36, see G4)"
+  },
+  "G4_c2stock_flat36_vs_paper": {
+   "expected": [
+    1.61,
+    1.57,
+    2.03,
+    31.0
+   ],
+   "got": [
+    1.6064505577087402,
+    1.5745348930358887,
+    2.0317113399505615,
+    30.99886703491211
+   ],
+   "pass": true,
+   "note": "the paper's C2 row (and W50 row) used the flat 36-cell median, not the per-dataset aggregation of the bolt/M2 rows"
+  },
+  "G4b_c2w50_flat36_vs_paper": {
+   "expected": [
+    1.26,
+    1.34,
+    1.81,
+    79.3
+   ],
+   "got": [
+    1.2637713551521301,
+    1.3435046076774597,
+    1.8115429878234863,
+    79.27104187011719
+   ],
+   "pass": null
+  }
+ },
+ "rows_s57_bolt_context": {
+  "bolt-stock": {
+   "per_dataset": {
+    "perfect": {
+     "ETTh1": 1.5051902532577515,
+     "ETTm1": 1.851544737815857,
+     "weather": 1.4148796200752258,
+     "ETTh2": 1.3779302835464478,
+     "ETTm2": 1.4115684032440186,
+     "electricity": 4.879773497581482,
+     "traffic": 3.3146637678146362,
+     "exchange": 1.3049980401992798,
+     "illness": 2.024565875530243
+    },
+    "linear": {
+     "ETTh1": 1.5707415342330933,
+     "ETTm1": 1.8406651020050049,
+     "weather": 1.3129176497459412,
+     "ETTh2": 1.3620400428771973,
+     "ETTm2": 1.3970868587493896,
+     "electricity": 5.745537519454956,
+     "traffic": 4.090317904949188,
+     "exchange": 1.3215476274490356,
+     "illness": 2.0871090292930603
+    },
+    "zero": {
+     "ETTh1": 2.2127355337142944,
+     "ETTm1": 2.543376326560974,
+     "weather": 3.50761616230011,
+     "ETTh2": 3.344531774520874,
+     "ETTm2": 3.7907001972198486,
+     "electricity": 14.391369342803955,
+     "traffic": 5.296560525894165,
+     "exchange": 46.48257064819336,
+     "illness": 2.8800748586654663
+    }
+   },
+   "perfect": 1.5051902532577515,
+   "linear": 1.5707415342330933,
+   "zero": 3.50761616230011,
+   "worst_zero_cell": {
+    "value": 46.48257064819336,
+    "dataset": "exchange"
+   }
+  },
+  "bolt-q50": {
+   "per_dataset": {
+    "perfect": {
+     "ETTh1": 1.2800044417381287,
+     "ETTm1": 1.2676860094070435,
+     "weather": 1.1776997447013855,
+     "ETTh2": 1.2246885299682617,
+     "ETTm2": 1.1597859859466553,
+     "electricity": 1.7341758012771606,
+     "traffic": 1.60756915807724,
+     "exchange": 1.1668468415737152,
+     "illness": 1.0815718173980713
+    },
+    "linear": {
+     "ETTh1": 1.5137821435928345,
+     "ETTm1": 1.688855528831482,
+     "weather": 1.1184817552566528,
+     "ETTh2": 1.3334192037582397,
+     "ETTm2": 1.3249849081039429,
+     "electricity": 4.533156156539917,
+     "traffic": 3.675905704498291,
+     "exchange": 1.1107234954833984,
+     "illness": 1.7450658679008484
+    },
+    "zero": {
+     "ETTh1": 1.7015622854232788,
+     "ETTm1": 1.9556885957717896,
+     "weather": 1.5637437105178833,
+     "ETTh2": 2.0290751457214355,
+     "ETTm2": 2.258018970489502,
+     "electricity": 5.743262052536011,
+     "traffic": 3.841747999191284,
+     "exchange": 7.177809238433838,
+     "illness": 2.288243055343628
+    }
+   },
+   "perfect": 1.2246885299682617,
+   "linear": 1.5137821435928345,
+   "zero": 2.258018970489502,
+   "worst_zero_cell": {
+    "value": 7.177809238433838,
+    "dataset": "exchange"
+   }
+  }
+ }
+}

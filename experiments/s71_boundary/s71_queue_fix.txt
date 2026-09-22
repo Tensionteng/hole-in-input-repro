@@ -1,0 +1,4 @@
+# S71 queue phase 7: eval-only reruns for the two OOM'd timesfm evals
+# (checkpoints are on disk; training itself completed fine)
+eval_timesfm_cpt | @PY@ eval_s71.py --models timesfm --arms cpt --parts probe,sweep,clean,leaderboard --device cuda:0
+eval_timesfm_cpt_s2 | @PY@ eval_s71.py --models timesfm --arms cpt@20260904 --parts probe,sweep,clean,leaderboard --device cuda:0
