@@ -8,11 +8,6 @@ The paper studies the *missingness interface* of time series foundation models
 choice bounds what any imputation can achieve, and how a short
 continued-pretraining (CPT) recipe restores the use of repaired values.
 
-> **Anonymity.** This repository is private until the camera-ready deadline.
-> During review, an anonymized read-only mirror is linked from the paper's
-> reproducibility statement; please do not link this repository itself from
-> the submission or any public channel while the paper is under review.
-
 ## What you can do with this package
 
 1. **Verify every reported number** against the stored experiment results.
